@@ -1,0 +1,34 @@
+{
+  "users": {
+    "123456": {
+      "name": "Gerald John Tangpos",
+      "course": "BSBA-HRM1-A1"
+    },
+    "789101": {
+      "name": "Jilliane Wood Labrador",
+      "course": "BSHM1-A1"
+    }
+  },
+  "votes": {
+    "1": {
+        "president": 1,
+        "vicePresident": 2,
+        "voter": "123456"
+    },
+    "2": {
+        "president": 1,
+        "vicePresident": 2,
+        "voter": "789101"
+    }
+  },
+  "candidates": {
+    "1": {
+        "name": "Rodrigo Duterte",
+        "position": "President"
+    },
+    "2": {
+        "name": "Donald Trump",
+        "position": "Vice President"
+    }
+  }
+}
