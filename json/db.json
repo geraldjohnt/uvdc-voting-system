@@ -1,34 +1,137 @@
 {
   "users": {
-    "123456": {
-      "name": "Gerald John Tangpos",
-      "course": "BSBA-HRM1-A1"
+    "12345678": {
+        "name": "Rhail Joshua Beceril",
+        "course": "BSBA-HRM1-A1",
+        "voted": false
     },
-    "789101": {
+    "23232323": {
+      "name": "Gerald John Tangpos",
+      "course": "BSBA-HRM1-A1",
+      "voted": false
+    },
+    "24200287": {
       "name": "Jilliane Wood Labrador",
-      "course": "BSHM1-A1"
+      "course": "BSHM1-A1",
+      "voted": false
     }
   },
   "votes": {
     "1": {
-        "president": 1,
-        "vicePresident": 2,
+        "p": 1,
+        "ivp": 2,
+        "evp": 3,
+        "s": 4,
+        "as": 5,
+        "t": 6,
+        "at": 7,
+        "a": 8,
+        "pio": 9,
         "voter": "123456"
     },
     "2": {
-        "president": 1,
-        "vicePresident": 2,
-        "voter": "789101"
+        "p": 1,
+        "ivp": 2,
+        "evp": 3,
+        "s": 4,
+        "as": 5,
+        "t": 6,
+        "at": 7,
+        "a": 8,
+        "pio": 9,
+        "voter": "24200287"
     }
   },
   "candidates": {
     "1": {
-        "name": "Rodrigo Duterte",
-        "position": "President"
+        "name": "Rivera, Aiden",
+        "position": "p",
+        "party": "Party People"
     },
     "2": {
-        "name": "Donald Trump",
-        "position": "Vice President"
+        "name": "Navarro, Sophie",
+        "position": "ivp",
+        "party": "Party People"
+    },
+    "3": {
+        "name": "Liu, Jasper",
+        "position": "evp",
+        "party": "Party People"
+    },
+    "4": {
+        "name": "Brooks, Maya",
+        "position": "s",
+        "party": "Party People"
+    },
+    "5": {
+        "name": "Carmichael, Elio",
+        "position": "as",
+        "party": "Party People"
+    },
+    "6": {
+        "name": "Mendoza, Rhea",
+        "position": "t",
+        "party": "Party People"
+    },
+    "7": {
+        "name": "Petrov, Zane",
+        "position": "at",
+        "party": "Party People"
+    },
+    "8": {
+        "name": "Grant, Talia",
+        "position": "a",
+        "party": "Party People"
+    },
+    "9": {
+        "name": "Nakamura, Kai",
+        "position": "pio",
+        "party": "Party People"
+    },
+    "10": {
+        "name": "Hassan, Leila",
+        "position": "p",
+        "party": "Y.O.U.T.H"
+    },
+    "11": {
+        "name": "Ellis, Rowan",
+        "position": "ivp",
+        "party": "Y.O.U.T.H"
+    },
+    "12": {
+        "name": "Castillo, Nina",
+        "position": "evp",
+        "party": "Y.O.U.T.H"
+    },
+    "13": {
+        "name": "Blake, Theo",
+        "position": "s",
+        "party": "Y.O.U.T.H"
+    },
+    "14": {
+        "name": "Vance, Amara",
+        "position": "as",
+        "party": "Y.O.U.T.H"
+    },
+    "15": {
+        "name": "Moreno, Luca",
+        "position": "t",
+        "party": "Y.O.U.T.H"
+    },
+    "16": {
+        "name": "Chen, Ivy",
+        "position": "at",
+        "party": "Y.O.U.T.H"
+    },
+    "17": {
+        "name": "Wells, Ezra",
+        "position": "a",
+        "party": "Y.O.U.T.H"
+    },
+    "18": {
+        "name": "Cruz, Sienna",
+        "position": "pio",
+        "party": "Y.O.U.T.H"
     }
   }
 }
