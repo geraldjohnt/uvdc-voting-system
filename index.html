@@ -36,6 +36,10 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
+                    <button id="roosterToggle" class="btn btn-link rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -65,59 +69,57 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container-fluid" id="body-content">
                     
                     <!-- Rooster -->
-                    <div class="row justify-content-center">
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/c1.png">
+                    <div class="row justify-content-center" id="rooster-container">
+                        <!-- <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
+                            <div class="card shadow h-100 rooster-card">
+                                <div class="card-body p-0">
+                                    <div class="row no-gutters mb-1">
+                                        <div class="col">
+                                            <img style="width: 100%;" id="rooster-p"
+                                                                src="img/candidates/unknown.png">
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="col px-1">
+                                            <p>President</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/c2.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/c3.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/c4.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/c5.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/unknown.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/unknown.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/unknown.png">
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <img style="width: 100%;"
-                                                src="img/candidates/unknown.png">
-                        </div>
+                            <div class="card shadow h-100 rooster-card">
+                                <div class="card-body p-0">
+                                    <div class="row no-gutters mb-1">
+                                        <div class="col">
+                                            <img style="width: 100%;" id="rooster-p"
+                                                                src="img/candidates/unknown.png">
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="col px-1">
+                                            <p>External Vice President</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">President</h1>
-                    </div>
+                    </div> -->
 
                     <!-- Content Row -->
-                    <div class="row justify-content-center">
+                    <!-- <div class="row justify-content-center"> -->
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2 candidate-card">
+                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                            <div class="card shadow h-100 py-2 candidate-card p" onclick="selectCandidate(this, 'p', 1)">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center mb-4">
                                         <div class="col">
@@ -137,11 +139,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2 candidate-card">
+                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                            <div class="card shadow h-100 py-2 candidate-card p" onclick="selectCandidate(this, 'p', 2)">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center mb-4">
                                         <div class="col">
@@ -162,19 +164,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                    <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Internal Vice President</h1>
-                    </div>
+                    </div> -->
 
                     <!-- Content Row -->
-                    <div class="row justify-content-center">
+                    <!-- <div class="row justify-content-center"> -->
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                            <div class="card border border-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center mb-4">
                                         <div class="col">
@@ -194,10 +196,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
                             <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center mb-4">
@@ -219,7 +221,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
                 <!-- /.container-fluid -->
@@ -274,8 +276,14 @@
         }
         .candidate-card:hover {
             box-shadow: inset;
-            border: 1px solid;
+            border: 3px solid;
         }
+        .border-success {
+            border-width: 3px;
+        }
+        /* .rooster-card {
+            padding: 0px;
+        } */
     </style>
 
     <!-- Firebase JavaScript -->
@@ -294,10 +302,11 @@
 
     <script src="js/auth.js"></script>
     <script src="js/firebase-config.js"></script>
-
+    
     <script>
+        var selectCandidate = function() {};
         const idNumber = localStorage.getItem('idNumber');
-
+        
         db.ref("users/" + idNumber).get().then(snapshot => {
             if (snapshot.exists()) {
                 const data = snapshot.val();
@@ -306,6 +315,7 @@
             }
         });
     </script>
+    <script src="js/populate-candidates.js"></script>
 </body>
 
 </html>
