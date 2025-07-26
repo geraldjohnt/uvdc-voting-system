@@ -56,7 +56,11 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal" onclick="logout()">
+                                <a class="dropdown-item for-admin" href="admin-manage.html">
+                                    Manage Admins
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" onclick="logout()">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -69,10 +73,10 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid" id="body-content">
+                <div class="container-fluid">
                     
                     <!-- Rooster -->
-                    <div class="row justify-content-center" id="rooster-container">
+                    <div class="row justify-content-center" id="rooster-content" style="display: none;">
                         <!-- <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
                             <div class="card shadow h-100 rooster-card">
                                 <div class="card-body p-0">
@@ -107,6 +111,13 @@
                                 </div>
                             </div>
                         </div> -->
+                    </div>
+                    <div id="body-content"></div>
+                    <div id="buttons-content"></div>
+                    <div id="warning-content" style="display: none;">
+                        <div class="row justify-content-center">
+                            <h1>You have already Voted! Thank you!</h1>
+                        </div>
                     </div>
 
                     <!-- Page Heading -->
@@ -305,6 +316,10 @@
     
     <script>
         var selectCandidate = function() {};
+        var viewRooster = function() {};
+        var submitVote = function() {};
+        var populateCandidates = function() {};
+        var votes = {};
         const idNumber = localStorage.getItem('idNumber');
         
         db.ref("users/" + idNumber).get().then(snapshot => {
@@ -312,6 +327,19 @@
                 const data = snapshot.val();
                 console.log(data);
                 $('#fullName').html(data.name || "N/A");
+                
+                if (data.voted) {
+                    $('#rooster-content').hide();
+                    $('#body-content').hide();
+                    $('#backButton').hide();
+                    $('#nextButton').hide();
+                    $('#submitButton').hide();
+                    $('#buttons-content').hide();
+                    $('#warning-content').show();
+                } else {
+                    populateCandidates();
+                    checkAdmin(idNumber);
+                }
             }
         });
     </script>

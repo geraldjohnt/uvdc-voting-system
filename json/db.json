@@ -3,44 +3,23 @@
     "12345678": {
         "name": "Rhail Joshua Beceril",
         "course": "BSBA-HRM1-A1",
-        "voted": false
+        "voted": false,
+        "admin": false
     },
     "23232323": {
       "name": "Gerald John Tangpos",
       "course": "BSBA-HRM1-A1",
-      "voted": false
+      "voted": false,
+      "admin": true
     },
     "24200287": {
       "name": "Jilliane Wood Labrador",
       "course": "BSHM1-A1",
-      "voted": false
+      "voted": false,
+      "admin": false
     }
   },
   "votes": {
-    "1": {
-        "p": 1,
-        "ivp": 2,
-        "evp": 3,
-        "s": 4,
-        "as": 5,
-        "t": 6,
-        "at": 7,
-        "a": 8,
-        "pio": 9,
-        "voter": "123456"
-    },
-    "2": {
-        "p": 1,
-        "ivp": 2,
-        "evp": 3,
-        "s": 4,
-        "as": 5,
-        "t": 6,
-        "at": 7,
-        "a": 8,
-        "pio": 9,
-        "voter": "24200287"
-    }
   },
   "candidates": {
     "1": {

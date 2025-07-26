@@ -1,109 +1,165 @@
 $(document).ready(function () {
-    var candidateOrder = {
-        'p': 'President', 
-        'ivp': 'Internal Vice President', 
-        'evp': 'External Vice President',
-        's': 'Secretary',
-        'as': 'Assistant Secretary',
-        't': 'Treasurer',
-        'at': 'Assistant Treasurer',
-        'a': 'Auditor',
-        'pio': 'PIO'
-    };
-    var candidateList = {
-        p: [],
-        ivp: [],
-        evp: [],
-        s: [],
-        as: [],
-        t: [],
-        at: [],
-        a: [],
-        pio: []
-    };
-    db.ref("candidates").once("value")
-      .then(function(snapshot) {
-        const data = snapshot.val();
-
-        // Check if data is valid
-        if (data) {
-            const candidatesArray = Object.entries(data).map(([key, candidate]) => {
-                return { id: key, ...candidate };
-            });
-
-            // Sort alphabetically by name (ASC)
-            candidatesArray.sort((a, b) => a.name.localeCompare(b.name));
-
-            // Now use the sorted array
-            candidatesArray.forEach(candidate => {
-                candidateList[candidate.position].push(candidate);
-            });
-            console.log(candidateList);
-            // console.log(candidateOrder);
-            $.each(candidateOrder, function(key, value) {
-                var body = '';
-                var rooster = `<div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                        <div class="card shadow h-100 rooster-card">
-                            <div class="card-body p-0">
-                                <div class="row no-gutters mb-1">
-                                    <div class="col">
-                                        <img style="width: 100%;" id="rooster-${key}"
-                                                            src="img/candidates/unknown.png">
-                                    </div>
-                                </div>
-                                <div class="row no-gutters">
-                                    <div class="col px-1">
-                                        <p>${value}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>`;
-                $('#rooster-container').append(rooster);
-                body = body + `<div class="row justify-content-center">
-                        <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">${value}</h1>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">`
-                $.each(candidateList[key], function(ckey, cvalue) {
-                    body = body + `<div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card shadow h-100 py-2 candidate-card ${key}" onclick="selectCandidate(this, '${key}', ${cvalue.id})">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center mb-4">
-                                        <div class="col">
-                                            <img style="width: 100%;"
-                                                src="img/candidates/c${cvalue.id}.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <h4 style="width: fit-content" class="mx-auto">${cvalue.name}</h4>
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <p style="width: fit-content" class="mx-auto">${value} (${cvalue.party})</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>`
+    populateCandidates = function() {
+        var candidateOrder = {
+            'p': 'President', 
+            'ivp': 'Internal Vice President', 
+            'evp': 'External Vice President',
+            's': 'Secretary',
+            'as': 'Assistant Secretary',
+            't': 'Treasurer',
+            'at': 'Assistant Treasurer',
+            'a': 'Auditor',
+            'pio': 'PIO'
+        };
+        var candidateList = {
+            p: [],
+            ivp: [],
+            evp: [],
+            s: [],
+            as: [],
+            t: [],
+            at: [],
+            a: [],
+            pio: []
+        };
+        db.ref("candidates").once("value")
+          .then(function(snapshot) {
+            const data = snapshot.val();
+    
+            // Check if data is valid
+            if (data) {
+                const candidatesArray = Object.entries(data).map(([key, candidate]) => {
+                    return { id: key, ...candidate };
                 });
-                body = body + `</div>`
-                $('#body-content').append(body);
-            });
-        } else {
-          console.log("No candidates found.");
-        }
-      })
-      .catch(function(error) {
-        console.error("Error fetching candidates:", error);
-      });
+    
+                // Sort alphabetically by name (ASC)
+                candidatesArray.sort((a, b) => a.name.localeCompare(b.name));
+    
+                // Now use the sorted array
+                candidatesArray.forEach(candidate => {
+                    candidateList[candidate.position].push(candidate);
+                });
+                console.log(candidateList);
+                // console.log(candidateOrder);
+                $.each(candidateOrder, function(key, value) {
+                    var body = '';
+                    var rooster = `<div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
+                            <div class="card shadow h-100 rooster-card">
+                                <div class="card-body p-0">
+                                    <div class="row no-gutters mb-1">
+                                        <div class="col">
+                                            <img style="width: 100%;" id="rooster-${key}"
+                                                                src="img/candidates/unknown.png">
+                                        </div>
+                                    </div>
+                                    <div class="row no-gutters">
+                                        <div class="col px-1">
+                                            <p>${value}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`;
+                    $('#rooster-content').append(rooster);
+                    body = body + `<div class="row justify-content-center">
+                            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                <h1 class="h3 mb-0 text-gray-800">${value}</h1>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">`
+                    $.each(candidateList[key], function(ckey, cvalue) {
+                        body = body + `<div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
+                                <div class="card shadow h-100 py-2 candidate-card ${key}" onclick="selectCandidate(this, '${key}', ${cvalue.id})">
+                                    <div class="card-body">
+                                        <div class="row no-gutters align-items-center mb-4">
+                                            <div class="col">
+                                                <img style="width: 100%;"
+                                                    src="img/candidates/c${cvalue.id}.png">
+                                            </div>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col align-items-center">
+                                                <h4 style="width: fit-content" class="mx-auto">${cvalue.name}</h4>
+                                            </div>
+                                        </div>
+                                        <div class="row no-gutters">
+                                            <div class="col align-items-center">
+                                                <p style="width: fit-content" class="mx-auto"><u>${cvalue.party}</u></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`
+                    });
+                    body = body + `</div>`
+                    $('#body-content').append(body);
+                });
+            } else {
+              console.log("No candidates found.");
+            }
+            $('#buttons-content').append(`
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-4" id="backButton" style="display: none;">
+                                <a class="btn btn-danger btn-icon-split btn-lg" onclick="hideRooster()" style="display: block;">
+                                    <span class="text">Back</span>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-4" id="nextButton">
+                                <a class="btn btn-primary btn-icon-split btn-lg" onclick="viewRooster()" style="display: block;">
+                                    <span class="text">Next</span>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-4" id="submitButton" style="display: none;">
+                                <a class="btn btn-primary btn-icon-split btn-lg" onclick="submitVote()" style="display: block;">
+                                    <span class="text">Submit</span>
+                                </a>
+                            </div>
+                        </div>
+                `);
+          })
+          .catch(function(error) {
+            console.error("Error fetching candidates:", error);
+          });
+    }
 
       selectCandidate = function(card, position, canId) {
           $(`.${position}`).removeClass('border-success');
           $(card).addClass('border-success');
           $(`#rooster-${position}`).attr('src', `img/candidates/c${canId}.png`);
+          votes[position] = canId;
+          console.log(votes);
+      }
+
+      viewRooster = function() {
+        $('#rooster-content').show();
+        $('#body-content').hide();
+        $('#backButton').show();
+        $('#nextButton').hide();
+        $('#submitButton').show();
+     }
+
+      hideRooster = function() {
+        $('#rooster-content').hide();
+        $('#body-content').show();
+        $('#backButton').hide();
+        $('#nextButton').show();
+        $('#submitButton').hide();
+      }
+
+      submitVote = function() {
+        db.ref('votes/'+idNumber).set(votes)
+            .then(() => {
+                console.log("Saved Successfully");
+            })
+            .catch((error) => {
+                console.log("Error: ", error);
+            });
+        db.ref('users/'+idNumber).update({"voted": true})
+            .then(() => {
+                console.log("Saved Successfully");
+            })
+            .catch((error) => {
+                console.log("Error: ", error);
+            });
       }
 });

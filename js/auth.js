@@ -19,3 +19,16 @@ function logout() {
   localStorage.removeItem('idNumber');
   window.location.href = 'login.html';
 }
+
+function checkAdmin(idNumber) {
+  db.ref("users/" + idNumber).get().then(snapshot => {
+      if (snapshot.exists()) {
+        const data = snapshot.val();
+        if (data.admin) {
+          $('.for-admin').show();
+        } else {
+          $('.for-admin').hide();
+        }
+      }
+  });
+}
