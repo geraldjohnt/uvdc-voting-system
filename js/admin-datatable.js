@@ -5,7 +5,7 @@ $(document).ready(function() {
     columnDefs: [
       {
         targets: 0,
-        width: '1%',
+        width: '10%',
         className: 'no-wrap'
       },
       {
@@ -29,8 +29,10 @@ $(document).ready(function() {
     }
   });
 
-  db.ref('users').orderByChild('admin').equalTo(true).once('value').then((snapshot) => {
+  db.ref('users').orderByChild('admin').equalTo(true).on('value', function(snapshot) {
     const users = snapshot.val();
+
+    table.clear();
 
     for (let id in users) {
       const user = users[id];
@@ -39,8 +41,10 @@ $(document).ready(function() {
         user.name,
         user.course,
         user.voted ? "Yes" : "No",
-      ]).draw(false);
+      ]);
     }
+
+    table.draw();
   });
 
   addAdmin = function() {
@@ -60,12 +64,6 @@ $(document).ready(function() {
       if (snapshot.exists()) {
         const userToBeAdded = snapshot.val();
         db.ref('users/'+idNumber.val()).update({"admin": true}).then(() => {
-          table.row.add([
-            idNumber.val(),
-            userToBeAdded.name,
-            userToBeAdded.course,
-            userToBeAdded.voted ? "Yes" : "No",
-          ]).draw(false);
           $('#addAdminModal').modal('hide');
           alert(`User ${userToBeAdded.name} has been added as admin!`);
         })

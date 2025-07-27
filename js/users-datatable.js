@@ -34,8 +34,10 @@ $(document).ready(function() {
     }
   });
 
-  db.ref('users').once('value').then((snapshot) => {
+  db.ref('users').on('value', function(snapshot) {
     const users = snapshot.val();
+
+    table.clear();
 
     for (let id in users) {
       const user = users[id];
@@ -45,8 +47,10 @@ $(document).ready(function() {
         user.course,
         user.admin ? "Yes" : "No",
         user.voted ? "Yes" : "No",
-      ]).draw(false);
+      ]);
     }
+
+    table.draw();
   });
 
   addUser = function() {
@@ -98,18 +102,11 @@ $(document).ready(function() {
         const userToBeAdded = snapshot.val();
         const newUser = {
           "name": `${lastName.val()}, ${firstName.val()}`,
-          "course": course,
+          "course": course.val(),
           "admin": false,
           "voted": false
         };
         db.ref('users/'+idNumber.val()).set(newUser).then(() => {
-          table.row.add([
-            idNumber.val(),
-            `${lastName.val()}, ${firstName.val()}`,
-            course,
-            "No",
-            "No"
-          ]).draw(false);
           $('#addUserModal').modal('hide');
           alert(`User ${lastName.val()}, ${firstName.val()} has been added!`);
           idNumber.val('');
