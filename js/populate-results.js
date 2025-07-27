@@ -80,7 +80,6 @@ $(document).ready(function () {
                     $('#body-content').append(body);
                 });
 
-                console.log(candidateList);
                 populateResults();
             }
         });
@@ -131,8 +130,6 @@ $(document).ready(function () {
                     }
                     $.each(candidateList, function(key, value) {
                         var totalVotesPerPosition = value.reduce((sum, candidate) => sum + (candidate.votes || 0), 0);
-                        console.log("value");
-                        console.log(totalVotesPerPosition);
 
                         const updated = value.map(candidate => {
                             const votes = candidate.votes || 0;
@@ -143,12 +140,11 @@ $(document).ready(function () {
                             };
                         });
 
-                        // console.log(updated);
                         candidateList[key] = updated.sort((a, b) => {
                             return parseFloat(b.percentage) - parseFloat(a.percentage);
                         });
                     });
-                    console.log(candidateList);
+                    
                     assignValuesToCards(candidateList);
                 });
             }
