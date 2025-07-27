@@ -16,10 +16,10 @@ $(document).ready(function() {
     ],
     order: [[1, 'asc']],
     drawCallback: function() {
-      $('#myTable tbody tr').each(function() {
-        var cell = $(this).find('td:eq(2)'); // Change index to the correct column
+      $('#adminTable tbody tr').each(function() {
+        var cell = $(this).find('td:eq(3)'); // Change index to the correct column
         var value = cell.text().trim();
-        cell.css('color', 'yellow');
+        
         if (value === 'Yes') {
           cell.css('color', 'green');
         } else if (value === 'No') {

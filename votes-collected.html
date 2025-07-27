@@ -20,9 +20,6 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this page -->
-    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top" onload="requireLogin()">
@@ -62,11 +59,11 @@
                                 <a class="dropdown-item for-admin" href="index.html">
                                     Home
                                 </a>
+                                <a class="dropdown-item for-admin" href="admin-manage.html">
+                                    Manage Admins
+                                </a>
                                 <a class="dropdown-item for-admin" href="users-manage.html">
                                     Users
-                                </a>
-                                <a class="dropdown-item for-admin" href="votes-collected.html">
-                                    Live Results
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" onclick="logout()">
@@ -83,54 +80,8 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3 d-flex justify-content-between align-items-center">
-                            <h6 class="m-0 font-weight-bold text-primary">Admin List</h6>
-                            
-                            <a class="mr-0 btn btn-primary btn-md" data-toggle="modal" data-target="#addAdminModal">
-                                <span class="text">Add</span>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="adminTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>ID Number</th>
-                                            <th>Name</th>
-                                            <th>Course</th>
-                                            <th>Voted</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>ID Number</th>
-                                            <th>Name</th>
-                                            <th>Course</th>
-                                            <th>Voted</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody id="adminTableBody">
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
                     
-                    <div class="row justify-content-center" id="admin-list">
-
-                    </div>
-                    <!-- Rooster -->
-                    <!-- <div class="row justify-content-center" id="rooster-content" style="display: none;"></div>
                     <div id="body-content"></div>
-                    <div id="buttons-content"></div>
-                    <div id="warning-content" style="display: none;">
-                        <div class="row justify-content-center">
-                            <h1>You have already Voted! Thank you!</h1>
-                        </div>
-                    </div> -->
-
                 </div>
                 <!-- /.container-fluid -->
 
@@ -159,27 +110,20 @@
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="addAdminModal" tabindex="-1" role="dialog" aria-labelledby="addAdminModalLabel"
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="addAdminModalLabel">Add Admin</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <input type="text" class="form-control form-control-user"
-                            id="idNumber"
-                            placeholder="Enter ID Number...">
-                    </div>
-                    <small id="idNumberError" class="text-danger d-none"></small>
-                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-danger" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" onclick="addAdmin()">Add</a>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
                 </div>
             </div>
         </div>
@@ -215,15 +159,13 @@
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
     <script src="js/auth.js"></script>
     <script src="js/firebase-config.js"></script>
     
     <script>
-        var addAdmin = function() {};
+        var populateCards = function() {};
+        var populateResults = function() {};
+        var assignValuesToCards = function() {};
         var votes = {};
         const idNumber = localStorage.getItem('idNumber');
         
@@ -232,25 +174,13 @@
                 const data = snapshot.val();
                 console.log(data);
                 $('#fullName').html(data.name || "N/A");
-                if (!data.admin) {
-                    window.location.href="index.html"
-                }
                 
-                // if (data.voted) {
-                //     $('#rooster-content').hide();
-                //     $('#body-content').hide();
-                //     $('#backButton').hide();
-                //     $('#nextButton').hide();
-                //     $('#submitButton').hide();
-                //     $('#buttons-content').hide();
-                //     $('#warning-content').show();
-                // } else {
-                //     populateCandidates();
-                // }
+                checkAdmin(idNumber);
+                populateCards();
             }
         });
     </script>
-    <script src="js/admin-datatable.js"></script>
+    <script src="js/populate-results.js"></script>
 </body>
 
 </html>

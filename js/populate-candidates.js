@@ -147,19 +147,19 @@ $(document).ready(function () {
       }
 
       submitVote = function() {
-        db.ref('votes/'+idNumber).set(votes)
-            .then(() => {
+        db.ref('votes/'+idNumber).set(votes).then(() => {
+            db.ref('users/'+idNumber).update({"voted": true}).then(() => {
+                $('#rooster-content').hide();
+                $('#buttons-content').hide();
+                $('#warning-content').show();
                 console.log("Saved Successfully");
             })
             .catch((error) => {
                 console.log("Error: ", error);
             });
-        db.ref('users/'+idNumber).update({"voted": true})
-            .then(() => {
-                console.log("Saved Successfully");
-            })
-            .catch((error) => {
-                console.log("Error: ", error);
-            });
+        })
+        .catch((error) => {
+            console.log("Error: ", error);
+        });
       }
 });

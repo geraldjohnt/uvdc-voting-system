@@ -1,10 +1,22 @@
 {
   "users": {
     "12345678": {
-        "name": "Rhail Joshua Beceril",
-        "course": "BSBA-HRM1-A1",
-        "voted": false,
-        "admin": false
+      "name": "Rhail Joshua Beceril",
+      "course": "BSBA-HRM1-A1",
+      "voted": false,
+      "admin": false
+    },
+    "22200290": {
+      "name": "ALVARADO, JUSTINE ROSS MEDICO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "23200185": {
+      "name": "MEDRANO, JHANE MAE ROTA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
     },
     "23232323": {
       "name": "Gerald John Tangpos",
@@ -12,105 +24,470 @@
       "voted": false,
       "admin": true
     },
+    "24200031": {
+      "name": "SEREÑO, JOVEN SKEY DIPUTADO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200039": {
+      "name": "QUIBEDO, JOHN FERNANDO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200052": {
+      "name": "RUIZ, SHIEN BUENA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200053": {
+      "name": "GEDORIO, ALEAH NICOLE",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200063": {
+      "name": "ARADO, LEAN JADE MASTAON",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200070": {
+      "name": "ADJAIL, JONRUB FAITH YNCIERTO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200084": {
+      "name": "DELA FUENTE, SCOTT VINCENT NOVO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200092": {
+      "name": "GESALAN, JOSS REIDAR GLARIANA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200097": {
+      "name": "MOSQUIDA, EJAY MARTIN",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200101": {
+      "name": "VERANO, ELAIZA SILANGAN",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200102": {
+      "name": "MANGUBAT, KHARLE MARIE ORQUILLAS",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200105": {
+      "name": "GENABE, JOREHN ISAIAH",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200108": {
+      "name": "CUENTO, KENT JOSHUA CALA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200109": {
+      "name": "LABISTE, JEAN GABRIELLE SILANGAN",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200121": {
+      "name": "EMPLEO, ANDREI MYLES PEPINO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200135": {
+      "name": "SINGSON, MHAYUME",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200145": {
+      "name": "ESTELLA, RAMSES RUSSEL BATOCTOY",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200146": {
+      "name": "ANIÑON, JOSEF DARTAGNAN COGINA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200147": {
+      "name": "BENLOT, DENISE MERCELLE PETANCIO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200150": {
+      "name": "DELA TORRE, JOSEPH IAN DELA CRUZ",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200155": {
+      "name": "CORTES, SHAYNE NICOLE TANGPOS",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200163": {
+      "name": "REYES, DION CHRISTIAN DAUGDAUG",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200179": {
+      "name": "RODRIGUEZ, IVAN NEIL TORIANO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200186": {
+      "name": "AMABA, CHRISTIAN DOMINIC AMARILA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200191": {
+      "name": "JUMAO-AS, SOFIA CLAIRE",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200194": {
+      "name": "ORTIZ, HAZEL INICIAL",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200195": {
+      "name": "ORTIZ, HANNAH MARIE BAGTASOS",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200220": {
+      "name": "GOFFINET, MARY GRACE LEGASPI",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200224": {
+      "name": "MAQUIPOTEN, APPLE MAE BUSTAMANTE",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200230": {
+      "name": "MARTINEZ, SETH JERALD LUDOVICE",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200253": {
+      "name": "LAGAHID, KIAN ANGELO LARGO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200283": {
+      "name": "GAMBOA, STEVEN JAMES ENTERA",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
     "24200287": {
       "name": "Jilliane Wood Labrador",
       "course": "BSHM1-A1",
       "voted": false,
       "admin": false
+    },
+    "24200292": {
+      "name": "MILLENA, KURT BAYANG",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200313": {
+      "name": "FRIOLO, JEIAN JAKE DE LOS SANTOS",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200315": {
+      "name": "ESTELLES, STEPHANIE TANGONAN",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200317": {
+      "name": "CUTARAN, SUZZAIN BRUCE",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "24200320": {
+      "name": "LAÑOJAN, JESSMAR BALANSAG",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "25200020": {
+      "name": "PEREZ, KHEN ARNOLD BACALSO",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200063": {
+      "name": "DIMPAS, TRISHA FAITH PAUTAN",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200068": {
+      "name": "CARAO, JOHN MICHAEL BELISTA",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200074": {
+      "name": "GALAPIN, KHASEN MATTHEW AVENIR",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200100": {
+      "name": "CORONEL, GREJEE ROMEO",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200110": {
+      "name": "VALIAO, JERRYLOU GONZALES",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200129": {
+      "name": "TERMULO, JONALYN ARNOCO",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "25200130": {
+      "name": "ESCARRO, DRANREB MOSQUEDA",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200131": {
+      "name": "Valera, Travis Alirey",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200137": {
+      "name": "LANTICSE, LOVLI ZHAIRENE FAMAT",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200139": {
+      "name": "SESTOSO, DUNSTAN MANLANGIT",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200163": {
+      "name": "PONCE, PHOEL CYRUS BATOCTOY",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200164": {
+      "name": "ISRAEL, NOAH NA",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200173": {
+      "name": "LOPEZ, MARK ANGELO BALLENA",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200175": {
+      "name": "CORTES, SOFIA KATELYN TANGPOS",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200213": {
+      "name": "VILLACORA, LESLIE CARY N.A",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200225": {
+      "name": "SALDO, PRINCESS LOURVIC OSORIO",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200226": {
+      "name": "BAIÑO, TRISHA MALOLOY-ON",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200229": {
+      "name": "GIGANTO, JOHN AHRONE ENTIA",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200232": {
+      "name": "DECHOSA, CALEX ANDREA NAPONE",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200238": {
+      "name": "BEJEC, LUIS HERBERT BERMUDEZ",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200251": {
+      "name": "ENALAS, ANGELITO REDUCTO",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
+    },
+    "25200252": {
+      "name": "PAZ, IRENE MAE",
+      "course": "STEM-G12A",
+      "voted": false,
+      "admin": false
+    },
+    "25200297": {
+      "name": "BUSTAMANTE, JOHN KENT COMALING",
+      "course": "STEM-G11A",
+      "voted": false,
+      "admin": false
     }
   },
-  "votes": {
-  },
+  "votes": {},
   "candidates": {
     "1": {
-        "name": "Rivera, Aiden",
-        "position": "p",
-        "party": "Party People"
+      "name": "Rivera, Aiden",
+      "position": "p",
+      "party": "Party People"
     },
     "2": {
-        "name": "Navarro, Sophie",
-        "position": "ivp",
-        "party": "Party People"
+      "name": "Navarro, Sophie",
+      "position": "ivp",
+      "party": "Party People"
     },
     "3": {
-        "name": "Liu, Jasper",
-        "position": "evp",
-        "party": "Party People"
+      "name": "Liu, Jasper",
+      "position": "evp",
+      "party": "Party People"
     },
     "4": {
-        "name": "Brooks, Maya",
-        "position": "s",
-        "party": "Party People"
+      "name": "Brooks, Maya",
+      "position": "s",
+      "party": "Party People"
     },
     "5": {
-        "name": "Carmichael, Elio",
-        "position": "as",
-        "party": "Party People"
+      "name": "Carmichael, Elio",
+      "position": "as",
+      "party": "Party People"
     },
     "6": {
-        "name": "Mendoza, Rhea",
-        "position": "t",
-        "party": "Party People"
+      "name": "Mendoza, Rhea",
+      "position": "t",
+      "party": "Party People"
     },
     "7": {
-        "name": "Petrov, Zane",
-        "position": "at",
-        "party": "Party People"
+      "name": "Petrov, Zane",
+      "position": "at",
+      "party": "Party People"
     },
     "8": {
-        "name": "Grant, Talia",
-        "position": "a",
-        "party": "Party People"
+      "name": "Grant, Talia",
+      "position": "a",
+      "party": "Party People"
     },
     "9": {
-        "name": "Nakamura, Kai",
-        "position": "pio",
-        "party": "Party People"
+      "name": "Nakamura, Kai",
+      "position": "pio",
+      "party": "Party People"
     },
     "10": {
-        "name": "Hassan, Leila",
-        "position": "p",
-        "party": "Y.O.U.T.H"
+      "name": "Hassan, Leila",
+      "position": "p",
+      "party": "Y.O.U.T.H"
     },
     "11": {
-        "name": "Ellis, Rowan",
-        "position": "ivp",
-        "party": "Y.O.U.T.H"
+      "name": "Ellis, Rowan",
+      "position": "ivp",
+      "party": "Y.O.U.T.H"
     },
     "12": {
-        "name": "Castillo, Nina",
-        "position": "evp",
-        "party": "Y.O.U.T.H"
+      "name": "Castillo, Nina",
+      "position": "evp",
+      "party": "Y.O.U.T.H"
     },
     "13": {
-        "name": "Blake, Theo",
-        "position": "s",
-        "party": "Y.O.U.T.H"
+      "name": "Blake, Theo",
+      "position": "s",
+      "party": "Y.O.U.T.H"
     },
     "14": {
-        "name": "Vance, Amara",
-        "position": "as",
-        "party": "Y.O.U.T.H"
+      "name": "Vance, Amara",
+      "position": "as",
+      "party": "Y.O.U.T.H"
     },
     "15": {
-        "name": "Moreno, Luca",
-        "position": "t",
-        "party": "Y.O.U.T.H"
+      "name": "Moreno, Luca",
+      "position": "t",
+      "party": "Y.O.U.T.H"
     },
     "16": {
-        "name": "Chen, Ivy",
-        "position": "at",
-        "party": "Y.O.U.T.H"
+      "name": "Chen, Ivy",
+      "position": "at",
+      "party": "Y.O.U.T.H"
     },
     "17": {
-        "name": "Wells, Ezra",
-        "position": "a",
-        "party": "Y.O.U.T.H"
+      "name": "Wells, Ezra",
+      "position": "a",
+      "party": "Y.O.U.T.H"
     },
     "18": {
-        "name": "Cruz, Sienna",
-        "position": "pio",
-        "party": "Y.O.U.T.H"
+      "name": "Cruz, Sienna",
+      "position": "pio",
+      "party": "Y.O.U.T.H"
     }
   }
 }

@@ -62,13 +62,13 @@
                                 <a class="dropdown-item for-admin" href="index.html">
                                     Home
                                 </a>
-                                <a class="dropdown-item for-admin" href="users-manage.html">
-                                    Users
+                                <a class="dropdown-item for-admin" href="admin-manage.html">
+                                    Manage Admins
                                 </a>
                                 <a class="dropdown-item for-admin" href="votes-collected.html">
                                     Live Results
                                 </a>
-                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-divider for-admin"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" onclick="logout()">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
@@ -86,20 +86,21 @@
 
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-flex justify-content-between align-items-center">
-                            <h6 class="m-0 font-weight-bold text-primary">Admin List</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Users List</h6>
                             
-                            <a class="mr-0 btn btn-primary btn-md" data-toggle="modal" data-target="#addAdminModal">
+                            <a class="mr-0 btn btn-primary btn-md" data-toggle="modal" data-target="#addUserModal">
                                 <span class="text">Add</span>
                             </a>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-bordered" id="adminTable" width="100%" cellspacing="0">
+                                <table class="table table-bordered" id="usersTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
                                             <th>ID Number</th>
                                             <th>Name</th>
                                             <th>Course</th>
+                                            <th>Admin</th>
                                             <th>Voted</th>
                                         </tr>
                                     </thead>
@@ -108,10 +109,11 @@
                                             <th>ID Number</th>
                                             <th>Name</th>
                                             <th>Course</th>
+                                            <th>Admin</th>
                                             <th>Voted</th>
                                         </tr>
                                     </tfoot>
-                                    <tbody id="adminTableBody">
+                                    <tbody id="usersTableBody">
                                     </tbody>
                                 </table>
                             </div>
@@ -159,12 +161,12 @@
     </a>
 
     <!-- Logout Modal-->
-    <div class="modal fade" id="addAdminModal" tabindex="-1" role="dialog" aria-labelledby="addAdminModalLabel"
+    <div class="modal fade" id="addUserModal" tabindex="-1" role="dialog" aria-labelledby="addUserModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="addAdminModalLabel">Add Admin</h5>
+                    <h5 class="modal-title" id="addUserModalLabel">Add User</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -176,10 +178,28 @@
                             placeholder="Enter ID Number...">
                     </div>
                     <small id="idNumberError" class="text-danger d-none"></small>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user"
+                            id="firstName"
+                            placeholder="First Name">
+                    </div>
+                    <small id="firstNameError" class="text-danger d-none"></small>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user"
+                            id="lastName"
+                            placeholder="Last Name">
+                    </div>
+                    <small id="lastNameError" class="text-danger d-none"></small>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user"
+                            id="course"
+                            placeholder="Course">
+                    </div>
+                    <small id="courseError" class="text-danger d-none"></small>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" onclick="addAdmin()">Add</a>
+                    <a class="btn btn-primary" onclick="addUser()">Add</a>
                 </div>
             </div>
         </div>
@@ -223,7 +243,7 @@
     <script src="js/firebase-config.js"></script>
     
     <script>
-        var addAdmin = function() {};
+        var addUser = function() {};
         var votes = {};
         const idNumber = localStorage.getItem('idNumber');
         
@@ -250,7 +270,8 @@
             }
         });
     </script>
-    <script src="js/admin-datatable.js"></script>
+    <script src="js/populate-candidates.js"></script>
+    <script src="js/users-datatable.js"></script>
 </body>
 
 </html>
