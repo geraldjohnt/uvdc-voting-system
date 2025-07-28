@@ -27,6 +27,11 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        </ul>
+        <!-- End of Sidebar -->
+
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -36,7 +41,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                    <button id="roosterToggle" class="btn btn-link rounded-circle mr-3">
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
 
@@ -56,16 +61,6 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item for-admin" href="admin-manage.html">
-                                    Manage Admins
-                                </a>
-                                <a class="dropdown-item for-admin" href="users-manage.html">
-                                    Users
-                                </a>
-                                <a class="dropdown-item for-admin" href="votes-collected.html">
-                                    Live Results
-                                </a>
-                                <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" onclick="logout()">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
@@ -82,42 +77,7 @@
                 <div class="container-fluid">
                     
                     <!-- Rooster -->
-                    <div class="row justify-content-center" id="rooster-content" style="display: none;">
-                        <!-- <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <div class="card shadow h-100 rooster-card">
-                                <div class="card-body p-0">
-                                    <div class="row no-gutters mb-1">
-                                        <div class="col">
-                                            <img style="width: 100%;" id="rooster-p"
-                                                                src="img/candidates/unknown.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col px-1">
-                                            <p>President</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                            <div class="card shadow h-100 rooster-card">
-                                <div class="card-body p-0">
-                                    <div class="row no-gutters mb-1">
-                                        <div class="col">
-                                            <img style="width: 100%;" id="rooster-p"
-                                                                src="img/candidates/unknown.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col px-1">
-                                            <p>External Vice President</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
+                    <div class="row justify-content-center" id="rooster-content" style="display: none;"></div>
                     <div id="body-content"></div>
                     <div id="buttons-content"></div>
                     <div id="warning-content" style="display: none;">
@@ -125,120 +85,6 @@
                             <h1>You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
                         </div>
                     </div>
-
-                    <!-- Page Heading -->
-                    <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">President</h1>
-                    </div> -->
-
-                    <!-- Content Row -->
-                    <!-- <div class="row justify-content-center"> -->
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card shadow h-100 py-2 candidate-card p" onclick="selectCandidate(this, 'p', 1)">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center mb-4">
-                                        <div class="col">
-                                            <img style="width: 100%;"
-                                                src="img/candidates/c1.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <h4 style="width: fit-content" class="mx-auto">Rivera, Aiden</h4>
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <p style="width: fit-content" class="mx-auto">President (Party People)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card shadow h-100 py-2 candidate-card p" onclick="selectCandidate(this, 'p', 2)">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center mb-4">
-                                        <div class="col">
-                                            <img style="width: 100%;"
-                                                src="img/candidates/c2.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <h4 style="width: fit-content" class="mx-auto">Rivera, Aiden</h4>
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <p style="width: fit-content" class="mx-auto">President (Party People)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- Page Heading -->
-                    <!-- <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Internal Vice President</h1>
-                    </div> -->
-
-                    <!-- Content Row -->
-                    <!-- <div class="row justify-content-center"> -->
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card border border-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center mb-4">
-                                        <div class="col">
-                                            <img style="width: 100%;"
-                                                src="img/candidates/c1.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <h4 style="width: fit-content" class="mx-auto">Rivera, Aiden</h4>
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <p style="width: fit-content" class="mx-auto">President (Party People)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <!-- <div class="col-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center mb-4">
-                                        <div class="col">
-                                            <img style="width: 100%;"
-                                                src="img/candidates/c2.png">
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <h4 style="width: fit-content" class="mx-auto">Rivera, Aiden</h4>
-                                        </div>
-                                    </div>
-                                    <div class="row no-gutters">
-                                        <div class="col align-items-center">
-                                            <p style="width: fit-content" class="mx-auto">President (Party People)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
 
                 </div>
                 <!-- /.container-fluid -->
@@ -307,18 +153,19 @@
     <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-database-compat.js"></script>
 
+    <script src="js/auth.js"></script>
+    <script src="js/firebase-config.js"></script>
+
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/populate-sidebar.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <script src="js/auth.js"></script>
-    <script src="js/firebase-config.js"></script>
     
     <script>
         var selectCandidate = function() {};
@@ -333,6 +180,8 @@
                 const data = snapshot.val();
                 console.log(data);
                 $('#fullName').html(data.name || "N/A");
+                populateSidebar("dashboard");
+                checkAdmin(idNumber);
                 
                 if (data.voted) {
                     $('#rooster-content').hide();
@@ -344,7 +193,6 @@
                     $('#warning-content').show();
                 } else {
                     populateCandidates();
-                    checkAdmin(idNumber);
                 }
             }
         });

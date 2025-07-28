@@ -30,6 +30,11 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        </ul>
+        <!-- End of Sidebar -->
+
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -39,7 +44,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
-                    <button id="roosterToggle" class="btn btn-link rounded-circle mr-3">
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
 
@@ -59,16 +64,6 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item for-admin" href="index.html">
-                                    Home
-                                </a>
-                                <a class="dropdown-item for-admin" href="admin-manage.html">
-                                    Manage Admins
-                                </a>
-                                <a class="dropdown-item for-admin" href="votes-collected.html">
-                                    Live Results
-                                </a>
-                                <div class="dropdown-divider for-admin"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" onclick="logout()">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
@@ -229,8 +224,12 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script src="js/auth.js"></script>
+    <script src="js/firebase-config.js"></script>
+
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/populate-sidebar.js"></script>
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
@@ -238,9 +237,6 @@
     <!-- Page level plugins -->
     <script src="vendor/datatables/jquery.dataTables.min.js"></script>
     <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-    <script src="js/auth.js"></script>
-    <script src="js/firebase-config.js"></script>
     
     <script>
         var addUser = function() {};
@@ -255,6 +251,7 @@
                 if (!data.admin) {
                     window.location.href="index.html"
                 }
+                populateSidebar("voters");
                 
                 // if (data.voted) {
                 //     $('#rooster-content').hide();
