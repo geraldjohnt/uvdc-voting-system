@@ -10,6 +10,10 @@ $(document).ready(function() {
     window.location.href = 'index.html';
   }
 
+  $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`)
+
+  $('#dtTitle').html(course);
+
   db.ref('users').orderByChild('course').equalTo(course).on('value', function(snapshot) {
     const users = snapshot.val();
 

@@ -39,20 +39,15 @@ $('#accordionSidebar').append(`
             <span>Admins</span></a>
     </li>
 
-    <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item" id="not-voted-yet-menu">
-        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseCourse" aria-expanded="true"
-            aria-controls="collapseCourse">
-            <i class="fas fa-fw fa-cog"></i>
-            <span>Not voted yet</span>
-        </a>
-        <div id="collapseCourse" class="collapse" aria-labelledby="headingTwo"
-            data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded" id="not-yet-voted">
-                <h6 class="collapse-header">Courses:</h6>
-            </div>
-        </div>
-    </li>
+    <!-- Divider -->
+    <hr class="sidebar-divider for-admin">
+
+    <!-- Heading -->
+    <div class="sidebar-heading for-admin">
+        Not Voted
+    </div>
+
+    <span id="courses-menu"></span>
 
     <!-- Divider -->
     <hr class="sidebar-divider for-admin">
@@ -77,6 +72,9 @@ $('#accordionSidebar').append(`
     </div>            
 `);
 
+$('#page-top').addClass('sidebar-toggled');
+$('#accordionSidebar').addClass('toggled');
+
 db.ref('users').once('value').then(function(snapshot) {
   const users = snapshot.val();
   const coursesSet = new Set();
@@ -92,8 +90,11 @@ db.ref('users').once('value').then(function(snapshot) {
   const uniqueCourses = Array.from(coursesSet).sort();
 
   $.each(uniqueCourses, function(key, value) {
-    $('#not-yet-voted').append(`
-        <a class="collapse-item" href="not-voted-manage.html?course=${value}" id="${value}-course">${value}</a>
+    $('#courses-menu').append(`
+        <li class="nav-item for-admin" id="${value}-course">
+            <a class="nav-link" href="not-voted-manage.html?course=${value}">
+                <span>${value}</span></a>
+        </li>
     `);
   });
   console.log("Unique Courses:", uniqueCourses);
@@ -101,8 +102,6 @@ db.ref('users').once('value').then(function(snapshot) {
 
 $(document).ready(function() {
     populateSidebar = function(page) {
-        $(`#${page}-menu`).addClass('active');
-
         if (page == 'not-voted-yet') {
             const params = new URLSearchParams(window.location.search);
             const course = params.get("course");
@@ -113,6 +112,8 @@ $(document).ready(function() {
                 $(`#${course}-course`).addClass('active');
                 // Do something like filter table rows, etc.
             }
+        } else {
+            $(`#${page}-menu`).addClass('active');
         }
     }
 });
