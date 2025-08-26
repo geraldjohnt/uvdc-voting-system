@@ -18,7 +18,7 @@ $('#navbar-ui').append(`
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-lg-inline text-gray-600 small" id="fullName"></span>
+                <span class="mr-2 d-lg-inline text-gray-600 small" style="width: 100px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" id="fullName"></span>
                 <img class="img-profile rounded-circle"
                     src="img/undraw_profile.svg">
             </a>
@@ -69,7 +69,7 @@ $(document).ready(function() {
                 $('#warning-message').html(`Voting hasn't started yet. Please come back in </br><span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
                 $('#warning-content').show();
     
-                $timer.html(`Voting starts in: <span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
+                $timer.html(`Voting starts in:<br /> <span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
             } else if (now >= start && now <= end) {
                 // Show how long voting has been active
                 const diff = now - start;
@@ -77,7 +77,7 @@ $(document).ready(function() {
                 const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((diff % (1000 * 60)) / 1000);
     
-                $timer.html(`Voting started: <span class="text-success">${hours}h ${minutes}m ${seconds}s ago</span>`);
+                $timer.html(`Voting started:<br /> <span class="text-success">${hours}h ${minutes}m ${seconds}s ago</span>`);
                 
                 $('#body-content').show();
                 $('#buttons-content').show();
@@ -108,7 +108,7 @@ $(document).ready(function() {
             $('#warning-message').html(`Voting hasn't started yet. Please come back in </br><span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
             $('#warning-content').show();
 
-            $timer.html(`Voting starts in: <span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
+            $timer.html(`Voting starts in:<br /> <span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
         } else if (now >= start && now <= end) {
             // Show how long voting has been active
             const diff = now - start;
@@ -116,7 +116,7 @@ $(document).ready(function() {
             const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-            $timer.html(`Voting started: <span class="text-success">${hours}h ${minutes}m ${seconds}s ago</span>`);
+            $timer.html(`Voting started:<br /> <span class="text-success">${hours}h ${minutes}m ${seconds}s ago</span>`);
             $('.result-text').text('Partial Result');
         } else {
             // Voting has ended

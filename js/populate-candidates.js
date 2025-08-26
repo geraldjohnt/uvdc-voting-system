@@ -63,16 +63,16 @@ $(document).ready(function () {
                             </div>`;
                         $('#rooster-content').append(rooster);
                         body = body + `<div class="row justify-content-center">
-                                <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                <div class="d-sm-flex align-items-center justify-content-between mb-2">
                                     <h1 class="h3 mb-0 text-gray-800">${value}</h1>
                                 </div>
                             </div>
                             <div class="row justify-content-center">`
                         $.each(candidateList[key], function(ckey, cvalue) {
-                            body = body + `<div class="col-12 col-md-4 col-lg-3 col-xl-2 mb-4">
-                                    <div class="card shadow h-100 py-2 candidate-card ${key}" onclick="selectCandidate(this, '${key}', ${cvalue.id})">
-                                        <div class="card-body">
-                                            <div class="row no-gutters align-items-center mb-4">
+                            body = body + `<div class="col-4 col-md-4 col-lg-3 col-xl-2 mb-4 px-1">
+                                    <div class="card shadow h-100 candidate-card ${key}" onclick="selectCandidate(this, '${key}', ${cvalue.id})">
+                                        <div class="card-body p-1">
+                                            <div class="row no-gutters align-items-center mb-1">
                                                 <div class="col">
                                                     <img style="width: 100%;"
                                                         src="img/candidates/c${cvalue.id}.png">
@@ -80,12 +80,12 @@ $(document).ready(function () {
                                             </div>
                                             <div class="row no-gutters">
                                                 <div class="col align-items-center">
-                                                    <h4 style="width: fit-content" class="mx-auto">${cvalue.name}</h4>
+                                                    <p style="width: fit-content; text-align: center;" class="mx-auto m-0">${cvalue.name}</p>
                                                 </div>
                                             </div>
                                             <div class="row no-gutters">
                                                 <div class="col align-items-center">
-                                                    <p style="width: fit-content" class="mx-auto"><u>${cvalue.party}</u></p>
+                                                    <p style="width: fit-content; text-align: center;" class="mx-auto m-0"><u>${cvalue.party}</u></p>
                                                 </div>
                                             </div>
                                         </div>
