@@ -35,16 +35,66 @@ $('#navbar-ui').append(`
     </ul>
 `)
 $(document).ready(function() {
-    function updateVotingTimer() {
-        const now = new Date();
-        
-        // Set voting date and time
-        const votingDate = "2025-07-29"; // change to your date (YYYY-MM-DD)
-        const votingEnd = "2025-08-11"; // change to your date (YYYY-MM-DD)
-        const start = new Date(`${votingDate}T08:00:00`);
-        const end = new Date(`${votingEnd}T17:00:00`);
+    // Set voting date and time
+    var votingDate = "";
+    var votingEnd = "";
+    var now = new Date();
+    
+    var start = "";
+    var end = "";
 
-        const $timer = $("#timer");
+    var $timer = $("#timer");
+
+    db.ref("votingDate").once("value")
+    .then(function(snapshot) {
+        votingDate = snapshot.val();
+
+        db.ref("votingEnd").once("value")
+        .then(function(snapshot) {
+            votingEnd = snapshot.val();
+            now = new Date();
+            
+            start = new Date(votingDate);
+            end = new Date(votingEnd);
+    
+            if (now < start) {
+                // Countdown before voting starts
+                const diff = start - now;
+                const hours = Math.floor(diff / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    
+                $('#body-content').hide();
+                $('#buttons-content').hide();
+                $('#warning-message').html(`Voting hasn't started yet. Please come back in </br><span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
+                $('#warning-content').show();
+    
+                $timer.html(`Voting starts in: <span class="text-primary">${hours}h ${minutes}m ${seconds}s</span>`);
+            } else if (now >= start && now <= end) {
+                // Show how long voting has been active
+                const diff = now - start;
+                const hours = Math.floor(diff / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    
+                $timer.html(`Voting started: <span class="text-success">${hours}h ${minutes}m ${seconds}s ago</span>`);
+                
+                $('#body-content').show();
+                $('#buttons-content').show();
+                $('#warning-content').hide();
+            } else {
+                // Voting has ended
+                $('#body-content').hide();
+                $('#buttons-content').hide();
+                $('#warning-message').html(`Voting has ended.`);
+                $('#warning-content').show();
+                $timer.html(`<span class="text-danger">Voting has ended.</span>`);
+            }
+        });
+    });
+
+    function updateVotingTimer() {
+        now = new Date();
 
         if (now < start) {
             // Countdown before voting starts
@@ -67,13 +117,11 @@ $(document).ready(function() {
             const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
             $timer.html(`Voting started: <span class="text-success">${hours}h ${minutes}m ${seconds}s ago</span>`);
+            $('.result-text').text('Partial Result');
         } else {
             // Voting has ended
-            $('#body-content').hide();
-            $('#buttons-content').hide();
-            $('#warning-message').html(`Voting has ended.`);
-            $('#warning-content').show();
             $timer.html(`<span class="text-danger">Voting has ended.</span>`);
+            $('.result-text').text('Final Result');
         }
     }
 

@@ -58,6 +58,11 @@
                             <h1 id="warning-message">You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
                         </div>
                     </div>
+                    <div id="warning-content-voted" style="display: none;">
+                        <div class="row justify-content-center">
+                            <h1 id="warning-message-voted">You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
+                        </div>
+                    </div>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -164,7 +169,7 @@
                     $('#nextButton').hide();
                     $('#submitButton').hide();
                     $('#buttons-content').hide();
-                    $('#warning-content').show();
+                    $('#warning-content-voted').show();
                 } else {
                     populateCandidates();
                 }

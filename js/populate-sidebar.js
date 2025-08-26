@@ -43,11 +43,11 @@ $('#accordionSidebar').append(`
     <hr class="sidebar-divider for-admin">
 
     <!-- Heading -->
-    <div class="sidebar-heading for-admin">
-        Not Voted
-    </div>
-
-    <span id="courses-menu"></span>
+    <li class="nav-item for-admin" id="not-voted-yet-menu">
+        <a class="nav-link" href="not-voted-manage.html">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Not Voted</span></a>
+    </li>
 
     <!-- Divider -->
     <hr class="sidebar-divider for-admin">
@@ -63,6 +63,12 @@ $('#accordionSidebar').append(`
             <span>Votes Collected</span></a>
     </li>
 
+    <li class="nav-item for-admin" id="result-menu">
+        <a class="nav-link" href="result.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span class="result-text">Partial Result</span></a>
+    </li>
+
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
 
@@ -75,45 +81,8 @@ $('#accordionSidebar').append(`
 $('#page-top').addClass('sidebar-toggled');
 $('#accordionSidebar').addClass('toggled');
 
-db.ref('users').once('value').then(function(snapshot) {
-  const users = snapshot.val();
-  const coursesSet = new Set();
-
-  for (let id in users) {
-    const user = users[id];
-    if (user.course) {
-      coursesSet.add(user.course);
-    }
-  }
-
-  // Convert Set to Array (optional)
-  const uniqueCourses = Array.from(coursesSet).sort();
-
-  $.each(uniqueCourses, function(key, value) {
-    $('#courses-menu').append(`
-        <li class="nav-item for-admin" id="${value}-course">
-            <a class="nav-link" href="not-voted-manage.html?course=${value}">
-                <span>${value}</span></a>
-        </li>
-    `);
-  });
-  console.log("Unique Courses:", uniqueCourses);
-});
-
 $(document).ready(function() {
     populateSidebar = function(page) {
-        if (page == 'not-voted-yet') {
-            const params = new URLSearchParams(window.location.search);
-            const course = params.get("course");
-
-            $('#collapseCourse').addClass('show');
-            
-            if (course) {
-                $(`#${course}-course`).addClass('active');
-                // Do something like filter table rows, etc.
-            }
-        } else {
-            $(`#${page}-menu`).addClass('active');
-        }
+        $(`#${page}-menu`).addClass('active');
     }
 });

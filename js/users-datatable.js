@@ -2,23 +2,23 @@
 $(document).ready(function() {
   const table = $('#usersTable').DataTable({
     autoWidth: false, // IMPORTANT: Let columnDefs control widths
-    // columnDefs: [
-    //   {
-    //     targets: 0,
-    //     width: '6%',
-    //     className: 'no-wrap'
-    //   },
-    //   {
-    //     targets: 3,
-    //     width: '1%',
-    //     className: 'no-wrap'
-    //   },
-    //   {
-    //     targets: 4,
-    //     width: '1%',
-    //     className: 'no-wrap'
-    //   },
-    // ],
+    columnDefs: [
+      {
+        targets: 0,
+        width: '0px',
+        className: 'no-wrap'
+      },
+      {
+        targets: 3,
+        width: '0px',
+        className: 'no-wrap'
+      },
+      {
+        targets: 4,
+        width: '0px',
+        className: 'no-wrap'
+      },
+    ],
     order: [[1, 'asc']],
     drawCallback: function() {
       $('#usersTable tbody tr').each(function() {

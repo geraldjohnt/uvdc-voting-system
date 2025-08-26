@@ -1,31 +1,81 @@
 // Call the dataTables jQuery plugin
 $(document).ready(function() {
+  function populateDatatable(query, course) {
+    $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`);
+
+    query.once('value', function(snapshot) {
+      const users = snapshot.val();
+  
+      table.clear();
+      
+      
+      for (let id in users) {
+        const user = users[id];
+        
+        if (!user.voted) {
+          table.row.add([
+            user.name
+          ]);
+        }
+        
+      }
+  
+      table.draw();
+    });
+  }
+
   const params = new URLSearchParams(window.location.search);
-  const course = params.get("course");
+  let course = params.get("course");
+  let ref = db.ref('users');
+  let query = ref;
+
   const table = $('#usersTable').DataTable({
     order: [[0, 'asc']],
   });
 
-  if (!course) {
-    window.location.href = 'index.html';
+  if (course && course !== 'All') {
+    // window.location.href = 'index.html';
+    query = ref.orderByChild('course').equalTo(course);
   }
-
-  $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`)
 
   $('#dtTitle').html(course);
 
-  db.ref('users').orderByChild('course').equalTo(course).on('value', function(snapshot) {
+  db.ref('users').once('value').then(function(snapshot) {
     const users = snapshot.val();
-
-    table.clear();
+    const coursesSet = new Set();
 
     for (let id in users) {
       const user = users[id];
-      table.row.add([
-        user.name,
-      ]);
+      if (user.course) {
+        coursesSet.add(user.course);
+      }
     }
 
-    table.draw();
+    // Convert Set to Array (optional)
+    const uniqueCourses = Array.from(coursesSet).sort();
+    course = 'All';
+
+    $.each(uniqueCourses, function(key, value) {
+      $('#courseFilter').append(`
+          <option value="${value}">${value}</option>
+      `);
+    });
+    console.log("Unique Courses:", uniqueCourses);
+    
+    // $('#openLink').attr('href', `not-voted-manage-shareable.html`)
+  
+    populateDatatable(query, course);
   });
+
+  $("#courseFilter").on("change", function () {
+    let selectedCourse = $(this).val();
+
+    query = db.ref('users');
+    if (selectedCourse != 'All') {
+      query = query.orderByChild('course').equalTo(selectedCourse);
+    }
+    $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`);
+
+    populateDatatable(query, selectedCourse);
+});
 });

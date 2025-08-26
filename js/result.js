@@ -43,9 +43,8 @@ $(document).ready(function () {
                     console.log(candidateList);
                     // console.log(candidateOrder);
                     $.each(candidateOrder, function(key, value) {
-                        var body = '';
-                        var rooster = `<div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2">
-                                <div class="card shadow h-100 rooster-card">
+                        var rooster = `<div class="col-4 col-sm-4 col-lg-2 mb-2" style="justify-content: center; display: flex;">
+                                <div class="card shadow h-100 rooster-card mb-2" style="width: 80%;">
                                     <div class="card-body p-0">
                                         <div class="row no-gutters mb-1">
                                             <div class="col">
@@ -62,38 +61,6 @@ $(document).ready(function () {
                                 </div>
                             </div>`;
                         $('#rooster-content').append(rooster);
-                        body = body + `<div class="row justify-content-center">
-                                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                                    <h1 class="h3 mb-0 text-gray-800">${value}</h1>
-                                </div>
-                            </div>
-                            <div class="row justify-content-center">`
-                        $.each(candidateList[key], function(ckey, cvalue) {
-                            body = body + `<div class="col-12 col-md-4 col-lg-3 col-xl-2 mb-4">
-                                    <div class="card shadow h-100 py-2 candidate-card ${key}" onclick="selectCandidate(this, '${key}', ${cvalue.id})">
-                                        <div class="card-body">
-                                            <div class="row no-gutters align-items-center mb-4">
-                                                <div class="col">
-                                                    <img style="width: 100%;"
-                                                        src="img/candidates/c${cvalue.id}.png">
-                                                </div>
-                                            </div>
-                                            <div class="row no-gutters">
-                                                <div class="col align-items-center">
-                                                    <h4 style="width: fit-content" class="mx-auto">${cvalue.name}</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row no-gutters">
-                                                <div class="col align-items-center">
-                                                    <p style="width: fit-content" class="mx-auto"><u>${cvalue.party}</u></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>`
-                        });
-                        body = body + `</div>`
-                        $('#body-content').append(body);
                     });
                 } else {
                   console.log("No candidates found.");
@@ -124,45 +91,4 @@ $(document).ready(function () {
         });
 
     }
-
-      selectCandidate = function(card, position, canId) {
-          $(`.${position}`).removeClass('border-success');
-          $(card).addClass('border-success');
-          $(`#rooster-${position}`).attr('src', `img/candidates/c${canId}.png`);
-          votes[position] = canId;
-          console.log(votes);
-      }
-
-      viewRooster = function() {
-        $('#rooster-content').show();
-        $('#body-content').hide();
-        $('#backButton').show();
-        $('#nextButton').hide();
-        $('#submitButton').show();
-     }
-
-      hideRooster = function() {
-        $('#rooster-content').hide();
-        $('#body-content').show();
-        $('#backButton').hide();
-        $('#nextButton').show();
-        $('#submitButton').hide();
-      }
-
-      submitVote = function() {
-        db.ref('votes/'+idNumber).set(votes).then(() => {
-            db.ref('users/'+idNumber).update({"voted": true}).then(() => {
-                $('#rooster-content').hide();
-                $('#buttons-content').hide();
-                $('#warning-content').show();
-                console.log("Saved Successfully");
-            })
-            .catch((error) => {
-                console.log("Error: ", error);
-            });
-        })
-        .catch((error) => {
-            console.log("Error: ", error);
-        });
-      }
 });

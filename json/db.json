@@ -488,6 +488,100 @@
       "name": "Cruz, Sienna",
       "position": "pio",
       "party": "Y.O.U.T.H"
+    },
+    "19": {
+      "name": "Hassan, Leila",
+      "position": "p",
+      "party": "Y.O.U.T.H"
+    },
+    "20": {
+      "name": "Ellis, Rowan",
+      "position": "ivp",
+      "party": "Y.O.U.T.H"
+    },
+    "21": {
+      "name": "Castillo, Nina",
+      "position": "evp",
+      "party": "Y.O.U.T.H"
+    },
+    "22": {
+      "name": "Blake, Theo",
+      "position": "s",
+      "party": "Y.O.U.T.H"
+    },
+    "23": {
+      "name": "Vance, Amara",
+      "position": "as",
+      "party": "Y.O.U.T.H"
+    },
+    "24": {
+      "name": "Moreno, Luca",
+      "position": "t",
+      "party": "Y.O.U.T.H"
+    },
+    "25": {
+      "name": "Chen, Ivy",
+      "position": "at",
+      "party": "Y.O.U.T.H"
+    },
+    "26": {
+      "name": "Wells, Ezra",
+      "position": "a",
+      "party": "Y.O.U.T.H"
+    },
+    "27": {
+      "name": "Cruz, Sienna",
+      "position": "pio",
+      "party": "Y.O.U.T.H"
     }
-  }
+  },
+  "votingDate": "2025-08-26T08:00:00",
+  "votingEnd": "2025-08-30T17:00:00",
+  "positions": [
+    {
+      "positionName": "President",
+      "positionAcronym": "p",
+      "positionOrder": 1
+    },
+    {
+      "positionName": "Internal Vice President",
+      "positionAcronym": "ivp",
+      "positionOrder": 2
+    },
+    {
+      "positionName": "External Vice President",
+      "positionAcronym": "evp",
+      "positionOrder": 3
+    },
+    {
+      "positionName": "Secretary",
+      "positionAcronym": "s",
+      "positionOrder": 4
+    },
+    {
+      "positionName": "Assistant Secretary",
+      "positionAcronym": "as",
+      "positionOrder": 5
+    },
+    {
+      "positionName": "Treasurer",
+      "positionAcronym": "t",
+      "positionOrder": 6
+    },
+    {
+      "positionName": "Assistant Treasurer",
+      "positionAcronym": "at",
+      "positionOrder": 7
+    },
+    {
+      "positionName": "Auditor",
+      "positionAcronym": "a",
+      "positionOrder": 8
+    },
+    {
+      "positionName": "PIO",
+      "positionAcronym": "pio",
+      "positionOrder": 9
+    }
+  ]
 }

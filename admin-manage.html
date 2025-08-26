@@ -62,7 +62,7 @@
                                 <table class="table table-bordered" id="adminTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>ID Number</th>
+                                            <th>ID</th>
                                             <th>Name</th>
                                             <th>Course</th>
                                             <th>Voted</th>
@@ -70,7 +70,7 @@
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>ID Number</th>
+                                            <th>ID</th>
                                             <th>Name</th>
                                             <th>Course</th>
                                             <th>Voted</th>
@@ -129,9 +129,15 @@
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user"
                             id="idNumber"
-                            placeholder="Enter ID Number...">
+                            placeholder="Enter ID Number..." required>
                     </div>
                     <small id="idNumberError" class="text-danger d-none"></small>
+                    <div class="form-group">
+                        <input type="password" class="form-control form-control-user"
+                            id="password"
+                            placeholder="Password" required>
+                    </div>
+                    <small id="passwordError" class="text-danger d-none"></small>
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-danger" type="button" data-dismiss="modal">Cancel</button>

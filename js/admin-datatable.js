@@ -1,16 +1,16 @@
 // Call the dataTables jQuery plugin
 $(document).ready(function() {
   const table = $('#adminTable').DataTable({
-    // autoWidth: false, // IMPORTANT: Let columnDefs control widths
+    autoWidth: false, // IMPORTANT: Let columnDefs control widths
     columnDefs: [
       {
         targets: 0,
-        width: '10%',
+        width: '0px',
         className: 'no-wrap'
       },
       {
         targets: 3,
-        width: '1%',
+        width: '0px',
         className: 'no-wrap'
       },
     ],
@@ -50,13 +50,31 @@ $(document).ready(function() {
   addAdmin = function() {
     const idNumber = $('#idNumber');
     const idNumberError = $('#idNumberError');
+    const password = $('#password');
+    const passwordError = $('#passwordError');
     idNumber.removeClass('is-invalid');
     idNumberError.addClass('d-none');
+    password.removeClass('is-invalid');
+    passwordError.addClass('d-none');
 
     if (idNumber.val() == '') {
       idNumber.addClass('is-invalid');
       idNumberError.html('ID Number is required!');
       idNumberError.removeClass('d-none');
+      return;
+    }
+
+    if(password.val() == '') {
+      password.addClass('is-invalid');
+      passwordError.html('Password required!');
+      passwordError.removeClass('d-none');
+      return;
+    }
+
+    if(password.val() !== 'gg123') {
+      password.addClass('is-invalid');
+      passwordError.html('Password incorrect!');
+      passwordError.removeClass('d-none');
       return;
     }
 
@@ -74,6 +92,7 @@ $(document).ready(function() {
         idNumber.addClass('is-invalid');
         idNumberError.html('ID Number does not exist!');
         idNumberError.removeClass('d-none');
+        password.val('');
         return;
       }
     });
