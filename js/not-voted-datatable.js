@@ -1,7 +1,8 @@
 // Call the dataTables jQuery plugin
 $(document).ready(function() {
   function populateDatatable(query, course) {
-    $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`);
+    // $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`);
+    $('#shareableLink').val(`https://geraldjohnt.github.io/uvdc-voting-system/not-voted-manage-shareable.html?course=${course}`);
 
     query.once('value', function(snapshot) {
       const users = snapshot.val();
@@ -74,8 +75,24 @@ $(document).ready(function() {
     if (selectedCourse != 'All') {
       query = query.orderByChild('course').equalTo(selectedCourse);
     }
-    $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`);
+
+    
+    $('#shareableLink').val(`https://geraldjohnt.github.io/uvdc-voting-system/not-voted-manage-shareable.html?course=${course}`);
+    // $('#openLink').attr('href', `not-voted-manage-shareable.html?course=${course}`);
 
     populateDatatable(query, selectedCourse);
-});
+  });
+
+  $("#copyLink").click(function (e) {
+    e.preventDefault();
+    let link = $("#shareableLink").val();
+    navigator.clipboard.writeText(link)
+      .then(() => alert("Link copied!"))
+      .catch(() => {
+        let input = $("<textarea>").val(link).appendTo("body").select();
+        document.execCommand("copy");
+        input.remove();
+        alert("Link copied (fallback)!");
+      });
+  });
 });
