@@ -1,5 +1,6 @@
 $(document).ready(function () {
     populateCandidates = function() {
+        requiredVotes = 0;
         var candidateOrder = {};
         var candidateList = {};
 
@@ -51,31 +52,32 @@ $(document).ready(function () {
                     `;
                     $('#body-content').append(informationText);
                     $.each(candidateOrder, function(key, value) {
-                        var body = '';
-                        var rooster = `<div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2 px-1">
-                                <div class="card shadow h-100 rooster-card">
-                                    <div class="card-body p-0">
-                                        <div class="row no-gutters mb-1">
-                                            <div class="col">
-                                                <img style="width: 100%;" class="rooster-image" id="rooster-${key}"
-                                                                    src="img/candidates/unknown.png">
+                        if (!['pio1', 'pio2', 'pio3'].includes(key) || key == `pio${year}`) {
+                            requiredVotes++;
+                            var body = '';
+                            var rooster = `<div class="col-4 col-sm-3 col-lg-2 col-xl-1 mb-2 px-1">
+                                    <div class="card shadow h-100 rooster-card">
+                                        <div class="card-body p-0">
+                                            <div class="row no-gutters mb-1">
+                                                <div class="col">
+                                                    <img style="width: 100%;" class="rooster-image" id="rooster-${key}"
+                                                                        src="img/candidates/unknown.png">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="row no-gutters">
-                                            <div class="col px-1">
-                                                <p style="text-align: center;" class="m-0 rooster-name" id="rooster-${key}-name"><span class="text-danger">No vote</span></p>
+                                            <div class="row no-gutters">
+                                                <div class="col px-1">
+                                                    <p style="text-align: center;" class="m-0 rooster-name" id="rooster-${key}-name"><span class="text-danger">No vote</span></p>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="row no-gutters">
-                                            <div class="col px-1">
-                                                <p style="text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" class="m-0"><i>${value}</i></p>
+                                            <div class="row no-gutters">
+                                                <div class="col px-1">
+                                                    <p style="text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" class="m-0"><i>${value}</i></p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>`;
-                        $('#rooster-content').append(rooster);
-                        if (!['pio1', 'pio2', 'pio3'].includes(key) || key == `pio${year}`) {
+                                </div>`;
+                            $('#rooster-content').append(rooster);
                             body = body + `<div class="row justify-content-center">
                                     <div class="d-sm-flex align-items-center justify-content-between mb-2">
                                         <h1 class="h3 mb-0 text-gray-800">${value}</h1>
@@ -134,7 +136,7 @@ $(document).ready(function () {
                                     </a>
                                 </div>
                                 <div class="col-6 col-sm-4" id="nextButton">
-                                    <a class="btn btn-sm btn-primary btn-icon-split" onclick="viewRooster()" style="display: block;">
+                                    <a class="btn btn-sm btn-primary btn-icon-split disabled" id="viewRooster" onclick="viewRooster()" style="display: block;">
                                         <span class="text">Next</span>
                                     </a>
                                 </div>
@@ -158,8 +160,11 @@ $(document).ready(function () {
           $(`#rooster-${position}`).attr('src', `img/candidates/c${canId}.png`);
           $(`#rooster-${position}-name`).html(`<span class="text-success"><strong>${name.split(", ")[0]}</strong></span>`);
           votes[position] = canId;
-          console.log(votes);
           $('#clearVote').removeClass('disabled');
+
+          if (Object.keys(votes).length == requiredVotes) {
+            $('#viewRooster').removeClass('disabled');
+          }
       }
 
       viewRooster = function() {
@@ -200,6 +205,7 @@ $(document).ready(function () {
         $(`.rooster-name`).html(`<span class="text-danger">No vote</span>`);
         $('#clearVote').addClass('disabled');
         votes = [];
+        $('#viewRooster').addClass('disabled');
       }
 
       submitVote = function() {

@@ -234,6 +234,7 @@
         const idNumber = localStorage.getItem('idNumber');
         let fullName = '';
         let year = '';
+        let requiredVotes = 0;
         
         db.ref("users/" + idNumber).get().then(snapshot => {
             if (snapshot.exists()) {
