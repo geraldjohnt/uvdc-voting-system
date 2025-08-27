@@ -106,7 +106,7 @@
           "name": "Albaran, Mary Joy",
           "course": "BSHM2-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "22200237": {
           "name": "Albasin, Jenny Rose",
@@ -1450,13 +1450,13 @@
           "name": "Debuayan, Mhae Shyllny",
           "course": "BSBA-HRM4-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "25200204": {
           "name": "Debulosan, Princes Gia",
           "course": "BSHM1-A2",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "25200306": {
           "name": "Debulosan, John Floyd",
@@ -2026,7 +2026,7 @@
           "name": "Gelbolingo, Niezel Mae",
           "course": "BSBA-HRM4-A2",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "25200031": {
           "name": "Gelig, Joana Marie",
@@ -2128,7 +2128,7 @@
           "name": "Heredia, Ashly Dianne",
           "course": "BSBA-HRM2-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "21200115": {
           "name": "Heredia, Ma. Cleofa",
@@ -2602,7 +2602,7 @@
           "name": "Mejares, Wendelyn",
           "course": "BSBA-HRM4-A2",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "24200353": {
           "name": "Mendez, Clenth Dyll",
@@ -3034,7 +3034,7 @@
           "name": "Pendon, Mary Joyce",
           "course": "BSBA-HRM3-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "23200284": {
           "name": "Pepino, Heslee Shane",
@@ -3760,7 +3760,7 @@
           "name": "Verano, Mae Heart",
           "course": "BSBA-HRM4-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "25200270": {
           "name": "Verano, Nicole",
@@ -3862,7 +3862,7 @@
           "name": "Villas, Klaire",
           "course": "BSBA-HRM4-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "25200078": {
           "name": "Villas, Travis Jaco",
@@ -3916,7 +3916,7 @@
           "name": "Zambrano, Zandrei",
           "course": "BSHM2-A1",
           "voted": false,
-          "admin": false
+          "admin": true
       },
       "24200123": {
           "name": "Zambrano, Marychel",

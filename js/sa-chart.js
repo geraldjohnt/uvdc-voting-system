@@ -36,6 +36,10 @@
         }
       });
 
+      $('#notVotedCount').text(notVotedUsers.length);
+      $('#votedCount').text(votedUsers.length);
+      $('#adminCount').text(adminUsers.length);
+
       $.each(notVotedUsers, function(key, value) {
         $('#notVotedList').append(`<div class="list-group-item py-1 px-2">${value}</div>`)
       });
