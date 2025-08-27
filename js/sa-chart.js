@@ -1,8 +1,49 @@
   $(document).ready(function () {
     // Reference to your users node in Firebase
     const usersRef = db.ref("users");
+    const ctx = document.getElementById("saChart").getContext("2d");
+    ctx.height = '540px';
+    var saChart = new Chart(ctx, {
+    type: "bar",
+    data: {
+        labels: [],
+        datasets: [
+        {
+            label: "Voted",
+            data: [],
+            backgroundColor: "rgba(75, 192, 192, 0.7)"
+        },
+        {
+            label: "Not Voted",
+            data: [],
+            backgroundColor: "rgba(255, 99, 132, 0.7)"
+        }
+        ]
+    },
+    options: {
+        responsive: true,
+    //   maintainAspectRatio: false,
+        plugins: {
+        legend: { position: "top" },
+        title: {
+            display: true,
+            text: "Voted Status per Course"
+        }
+        },
+        scales: {
+        x: {
+            stacked: false
+        },
+        y: {
+            beginAtZero: true,
+            ticks: { stepSize: 5 }
+        }
+        }
+    }
+    });
 
-    usersRef.on("value", function(snapshot) {
+
+    function populateDataForDashboard(snapshot) {
         $('#notVotedList').empty();
         $('#votedList').empty();
         $('#adminList').empty();
@@ -52,50 +93,19 @@
         $('#adminList').append(`<div class="list-group-item py-1 px-2">${value}</div>`)
       });
 
-      // Prepare data for Chart.js
-      const labels = Object.keys(courseData);
-      const votedTrue = labels.map(c => courseData[c].trueCount);
-      const votedFalse = labels.map(c => courseData[c].falseCount);
+        // Prepare data for Chart.js
+        const labels = Object.keys(courseData);
+        const votedTrue = labels.map(c => courseData[c].trueCount);
+        const votedFalse = labels.map(c => courseData[c].falseCount);
 
-      const ctx = document.getElementById("saChart").getContext("2d");
-      ctx.height = '540px';
-      new Chart(ctx, {
-        type: "bar",
-        data: {
-          labels: labels,
-          datasets: [
-            {
-              label: "Voted",
-              data: votedTrue,
-              backgroundColor: "rgba(75, 192, 192, 0.7)"
-            },
-            {
-              label: "Not Voted",
-              data: votedFalse,
-              backgroundColor: "rgba(255, 99, 132, 0.7)"
-            }
-          ]
-        },
-        options: {
-          responsive: true,
-        //   maintainAspectRatio: false,
-          plugins: {
-            legend: { position: "top" },
-            title: {
-              display: true,
-              text: "Voted Status per Course"
-            }
-          },
-          scales: {
-            x: {
-              stacked: false
-            },
-            y: {
-              beginAtZero: true,
-              ticks: { stepSize: 5 }
-            }
-          }
-        }
-      });
+        saChart.data.labels = labels;
+        saChart.data.datasets[0].data = votedTrue;
+        saChart.data.datasets[1].data = votedFalse;
+
+        saChart.update(); // ✅ refresh chart with new data
+    }
+
+    usersRef.on("value", function(snapshot) {
+        populateDataForDashboard(snapshot);
     });
   });
