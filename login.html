@@ -95,6 +95,14 @@
     }
 
     if (isLoggedIn()) window.location.href = "index.html";
+    $(document).ready(function() {
+        $('#idNumber').on('keydown', function(event) {
+            if (event.key === "Enter" || event.keyCode === 13) {
+                event.preventDefault(); // prevent form submit if inside a form
+                handleLogin();
+            }
+        });
+    })
     </script>
 </body>
 

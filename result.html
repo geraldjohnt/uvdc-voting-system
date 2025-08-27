@@ -131,8 +131,8 @@
     
     <script>
         var populateCandidates = function() {};
-        var populateResults = function() {};
-        var assignValuesToCards = function() {};
+        var populateResult = function() {};
+        var getHighest = function() {};
         var votes = {};
         const idNumber = localStorage.getItem('idNumber');
         
@@ -147,7 +147,7 @@
                 populateSidebar("result");
                 
                 checkAdmin(idNumber);
-                populateCandidates();
+                populateResult();
             }
         });
     </script>

@@ -50,19 +50,92 @@
                 <div class="container-fluid">
                     
                     <!-- Rooster -->
-                    <div class="row justify-content-center" id="rooster-content" style="display: none;"></div>
-                    <div id="body-content"></div>
-                    <div id="buttons-content"></div>
-                    <div id="warning-content" style="display: none;">
-                        <div class="row justify-content-center">
-                            <h1 id="warning-message">You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
+                    <span id="regular-user">
+                        <div class="row justify-content-center" id="rooster-content" style="display: none;"></div>
+                        <div id="body-content"></div>
+                        <div id="buttons-content"></div>
+                        <div id="warning-content" style="display: none;">
+                            <div class="row justify-content-center">
+                                <h1 id="warning-message">You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
+                            </div>
                         </div>
-                    </div>
-                    <div id="warning-content-voted" style="display: none;">
-                        <div class="row justify-content-center">
-                            <h1 id="warning-message-voted">You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
+                        <div id="warning-content-voted" style="display: none;">
+                            <div class="row justify-content-center">
+                                <h1 id="warning-message-voted">You have already cast your vote. To ensure fair voting, each user is allowed to vote only once. Thank you for your participation!</h1>
+                            </div>
                         </div>
-                    </div>
+                    </span>
+
+                    <span id="system-admin" class="d-none">
+                        <div class="row">
+                            <div class="col-10" style="height: 84vh;">
+                                <div class="row">
+                                    <div class="card shadow">
+                                        <div class="card-body p-0">
+                                            <div class="row justify-content-center" id="sa-rooster-content"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 p-0" style="height: 63vh;">
+                                        <div class="card shadow">
+                                            <div class="card-body" style="max-height: 62vh; overflow-y: auto; overflow-x: hidden;">
+                                                <div id="sa-body-content-result"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8 p-0" style="height: 63vh;">
+                                        <div class="card shadow">
+                                            <div class="card-body" style="height: 62vh; max-height: 62vh; overflow-y: auto; overflow-x: hidden;">
+                                                <canvas id="saChart" style="height: 100%;"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2" style="height: 84vh;">
+                                <div class="row">
+                                    <div class="col-12" style="height: 28vh;">
+                                        <div class="card shadow">
+                                            <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                                                <h6 class="m-0 font-weight-bold text-primary" id="dtTitle">Not Voted</h6>
+                                            </div>
+                                            <div class="card-body p-0" style="height: 200px; max-height: 200px; overflow-y: auto; overflow-x: hidden;">
+                                                <div class="list-group" id="notVotedList">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12" style="height: 28vh;">
+                                        <div class="card shadow">
+                                            <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                                                <h6 class="m-0 font-weight-bold text-primary" id="dtTitle">Voted</h6>
+                                            </div>
+                                            <div class="card-body p-0" style="height: 200px; max-height: 200px; overflow-y: auto; overflow-x: hidden;">
+                                                <div class="list-group" id="votedList">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12" style="height: 28vh;">
+                                        <div class="card shadow">
+                                            <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                                                <h6 class="m-0 font-weight-bold text-primary" id="dtTitle">Admins</h6>
+                                            </div>
+                                            <div class="card-body p-0" style="height: 200px; max-height: 200px; overflow-y: auto; overflow-x: hidden;">
+                                                <div class="list-group" id="adminList">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -146,19 +219,30 @@
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
     
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    
     <script>
         var selectCandidate = function() {};
         var viewRooster = function() {};
+        var clearVote = function() {};
         var submitVote = function() {};
         var populateCandidates = function() {};
+        var populateCards = function() {};
+        var getCandidates = function() {};
         var votes = {};
         const idNumber = localStorage.getItem('idNumber');
+        let fullName = '';
+        let year = '';
         
         db.ref("users/" + idNumber).get().then(snapshot => {
             if (snapshot.exists()) {
                 const data = snapshot.val();
                 console.log(data);
                 $('#fullName').html(data.name || "N/A");
+                fullName = data.name;
+                year = (idNumber == 'systemadmin') ? null : data.course.match(/(\d)(?=-A)/)[1];
+
                 populateSidebar("dashboard");
                 checkAdmin(idNumber);
                 
@@ -171,12 +255,22 @@
                     $('#buttons-content').hide();
                     $('#warning-content-voted').show();
                 } else {
-                    populateCandidates();
+                    if (idNumber == 'systemadmin') {
+                        $('#regular-user').hide();
+                        $('#system-admin').removeClass('d-none');
+                        populateResult(true);
+                        populateCards(true);
+                    } else {
+                        populateCandidates();
+                    }
                 }
             }
         });
     </script>
     <script src="js/populate-candidates.js"></script>
+    <script src="js/populate-results.js"></script>
+    <script src="js/result.js"></script>
+    <script src="js/sa-chart.js"></script>
 </body>
 
 </html>

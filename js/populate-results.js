@@ -1,8 +1,12 @@
 $(document).ready(function () {
     var generalCandidateList = {};
-    populateCards = function() {
+    populateCards = function(sa = false) {
         var candidateOrder = {};
         var candidateList = {};
+        var resultContainer = sa ? 'sa-body-content-result' : 'body-content-result';
+        var nameTag = sa ? 'p' : 'h3';
+        var votesTag = sa ? 'p' : 'h4';
+        var votesClass = sa ? ` class="mb-1"` : '';
 
         db.ref("positions").once("value", function(snapshot) {
             var positions = snapshot.val();
@@ -40,32 +44,32 @@ $(document).ready(function () {
     
                     $.each(candidateOrder, function(key, value) {
                         var body = `<div class="row justify-content-center">
-                            <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                                <h1 class="mb-0 text-gray-800">${value}</h1>
+                            <div class="d-sm-flex align-items-center justify-content-between mb-1">
+                                <${nameTag} class="mb-0 text-gray-800" style="text-align: center;">${value}</${nameTag}>
                             </div>
                         </div>
-                        <div class="row justify-content-center">`;
+                        <div class="row justify-content-center mb-3">`;
                         $.each(candidateList[key], function(ckey, cvalue) {
                             body = body + `
-                                <div class="col-12 col-md-6 mb-4">
-                                    <div class="card shadow h-100 p-2">
+                                <div class="col-12 mb-2">
+                                    <div class="card shadow h-80 p-2">
                                         <div class="card-body p-0">
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto mr-2">
                                                     <div class="row no-gutters align-items-center">
                                                         <div class="col">
-                                                            <img id="c${cardNumber}-image" style="width: 100px"
+                                                            <img id="c${cardNumber}-image" style="width: 70px"
                                                                 src="img/candidates/unknown.png">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col">
-                                                    <div class="mb-1"><h1><span id="c${cardNumber}-name">Loading...</span> (<u id="c${cardNumber}-party">Loading...</u>)</h1></div>
-                                                    <div class="progress mb-4">
+                                                    <div class="mb-1"><${nameTag}${votesClass}><span id="c${cardNumber}-name">Loading...</span> (<u id="c${cardNumber}-party">Loading...</u>)</${nameTag}></div>
+                                                    <div class="progress mb-1">
                                                         <div class="progress-bar" id="c${cardNumber}-progress" role="progressbar" style="width: 0%"
                                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                                     </div>
-                                                    <div class="mb-1"><h3><strong><span id="c${cardNumber}-votes">Loading...</span> votes</strong></h3></div>
+                                                    <div class="mb-1"><${votesTag}${votesClass}><strong><span id="c${cardNumber}-votes">Loading...</span> votes</strong></${votesTag}></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -75,7 +79,7 @@ $(document).ready(function () {
                             cardNumber++;
                         });
                         body = body + `</div>`;
-                        $('#body-content-result').append(body);
+                        $(`#${resultContainer}`).append(body);
                     });
     
                     populateResults();
@@ -97,7 +101,7 @@ $(document).ready(function () {
                 // Sort alphabetically by name (ASC)
                 candidatesArray.sort((a, b) => a.name.localeCompare(b.name));
                 db.ref('votes').on('value', function(snapshot) {
-                    var candidateList = generalCandidateList;
+                    var candidateList = JSON.parse(JSON.stringify(generalCandidateList));
         
                     // Now use the sorted array
                     candidatesArray.forEach(candidate => {
