@@ -36,11 +36,13 @@ $(document).ready(function() {
 
   db.ref('users').on('value', function(snapshot) {
     const users = snapshot.val();
+    const coursesSet = new Set();
 
     table.clear();
 
     for (let id in users) {
       const user = users[id];
+
       table.row.add([
         id,
         user.name,
@@ -48,7 +50,20 @@ $(document).ready(function() {
         user.admin ? "Yes" : "No",
         user.voted ? "Yes" : "No",
       ]);
+
+      if (user.course) {
+        coursesSet.add(user.course);
+      }
     }
+    
+    const uniqueCourses = Array.from(coursesSet).sort();
+
+    
+    $.each(uniqueCourses, function(key, value) {
+      $('#course').append(`
+          <option value="${value}">${value}</option>
+      `);
+    });
 
     table.draw();
   });
@@ -97,18 +112,18 @@ $(document).ready(function() {
       return;
     }
 
-    db.ref('users/'+idNumber.val()).get().then(snapshot => {
+    db.ref('users/'+trim(idNumber.val())).get().then(snapshot => {
       if (!snapshot.exists()) {
         const userToBeAdded = snapshot.val();
         const newUser = {
-          "name": `${lastName.val()}, ${firstName.val()}`,
+          "name": `${trim(lastName.val())}, ${trim(firstName.val())}`,
           "course": course.val(),
           "admin": false,
           "voted": false
         };
-        db.ref('users/'+idNumber.val()).set(newUser).then(() => {
+        db.ref('users/'+trim(idNumber.val())).set(newUser).then(() => {
           $('#addUserModal').modal('hide');
-          alert(`User ${lastName.val()}, ${firstName.val()} has been added!`);
+          alert(`User ${trim(lastName.val())}, ${trim(firstName.val())} has been added!`);
           idNumber.val('');
           firstName.val('');
           lastName.val('');

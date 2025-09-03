@@ -47,7 +47,8 @@
         $('#notVotedList').empty();
         $('#votedList').empty();
         $('#adminList').empty();
-      const data = snapshot.val();
+      const data = Object.entries(snapshot.val()).map(([id, data]) => ({ id, ...data })).sort((a, b) => a.course.localeCompare(b.course));
+      console.log(data)
       let courseData = {};
       let votedUsers = [];
       let notVotedUsers = [];
@@ -59,6 +60,9 @@
         let voted = user.voted;
         let admin = user.admin;
         let name = user.name;
+        if (course == 'A.D.M.I.N') {
+            return;
+        }
 
         if (!courseData[course]) {
           courseData[course] = { trueCount: 0, falseCount: 0 };
