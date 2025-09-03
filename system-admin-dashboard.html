@@ -257,15 +257,21 @@
                     $('#warning-content-voted').show();
                 } else {
                     if (idNumber == 'systemadmin') {
-                        window.location.href = 'system-admin-dashboard.html';
+                        $('#regular-user').hide();
+                        $('#system-admin').removeClass('d-none');
+                        populateResult(true);
+                        populateCards(true);
                     } else {
-                        populateCandidates();
+                        window.location.href = 'index.html';
                     }
                 }
             }
         });
     </script>
     <script src="js/populate-candidates.js"></script>
+    <script src="js/populate-results.js"></script>
+    <script src="js/result.js"></script>
+    <script src="js/sa-chart.js"></script>
 </body>
 
 </html>
