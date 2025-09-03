@@ -52,7 +52,9 @@ $(document).ready(function() {
       ]);
 
       if (user.course) {
-        coursesSet.add(user.course);
+        if (user.course !== 'A.D.M.I.N') {
+          coursesSet.add(user.course);
+        }
       }
     }
     
