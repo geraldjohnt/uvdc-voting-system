@@ -1,0 +1,9793 @@
+{
+  "candidates": [
+    null,
+    {
+      "name": "Arnaiz, Nekkie",
+      "party": "P.A.K.S.A",
+      "position": "p"
+    },
+    {
+      "name": "Lodovice, Ma. Theresa",
+      "party": "P.A.K.S.A",
+      "position": "ivp"
+    },
+    {
+      "name": "Oyangoren, Niña Mica",
+      "party": "P.A.K.S.A",
+      "position": "evp"
+    },
+    {
+      "name": "Lingaro, Alena",
+      "party": "P.A.K.S.A",
+      "position": "s"
+    },
+    {
+      "name": "Zuniega, Riza",
+      "party": "P.A.K.S.A",
+      "position": "t"
+    },
+    {
+      "name": "Mosqueda, Riza Jean",
+      "party": "P.A.K.S.A",
+      "position": "a"
+    },
+    {
+      "name": "Vergara, Adkynz",
+      "party": "P.A.K.S.A",
+      "position": "pio1"
+    },
+    {
+      "name": "Monong, Louvilmay",
+      "party": "P.A.K.S.A",
+      "position": "pio2"
+    },
+    {
+      "name": "Villacorta, Marylen",
+      "party": "P.A.K.S.A",
+      "position": "pio3"
+    },
+    {
+      "name": "Sanoy, Ericka Kamille",
+      "party": "LAMBO",
+      "position": "p"
+    },
+    {
+      "name": "Ordoña, Ma. Jho-Ann Mae",
+      "party": "LAMBO",
+      "position": "ivp"
+    },
+    {
+      "name": "Buena, Cristina",
+      "party": "LAMBO",
+      "position": "evp"
+    },
+    {
+      "name": "Dueñas, Kezia Mae",
+      "party": "LAMBO",
+      "position": "s"
+    },
+    {
+      "name": "Carzon, Wenly Kaye",
+      "party": "LAMBO",
+      "position": "t"
+    },
+    {
+      "name": "Fuentes, Frances Lou",
+      "party": "LAMBO",
+      "position": "a"
+    },
+    {
+      "name": "Gelaga, Nifren Seraf",
+      "party": "LAMBO",
+      "position": "pio1"
+    },
+    {
+      "name": "Blasco, John Benedict",
+      "party": "LAMBO",
+      "position": "pio2"
+    },
+    {
+      "name": "Dela Pena, Justin Kenneth",
+      "party": "LAMBO",
+      "position": "pio3"
+    },
+    {
+      "name": "Prencisa, Althea Natasha",
+      "party": "A.S.P.I.R.E",
+      "position": "p"
+    },
+    {
+      "name": "Famat, Dinah Marie",
+      "party": "A.S.P.I.R.E",
+      "position": "ivp"
+    },
+    {
+      "name": "Muñoz, Kisha Abbygale",
+      "party": "A.S.P.I.R.E",
+      "position": "evp"
+    },
+    {
+      "name": "Caritan, Roselyn",
+      "party": "A.S.P.I.R.E",
+      "position": "s"
+    },
+    {
+      "name": "Labrador, Jilliane",
+      "party": "A.S.P.I.R.E",
+      "position": "t"
+    },
+    {
+      "name": "Famat, Meth Angela",
+      "party": "A.S.P.I.R.E",
+      "position": "a"
+    },
+    {
+      "name": "Aliñabon, Raymond",
+      "party": "A.S.P.I.R.E",
+      "position": "pio1"
+    },
+    {
+      "name": "Tecson, Roland",
+      "party": "A.S.P.I.R.E",
+      "position": "pio2"
+    },
+    {
+      "name": "Pepino, Heslee Shane",
+      "party": "A.S.P.I.R.E",
+      "position": "pio3"
+    }
+  ],
+  "positions": [
+    {
+      "positionAcronym": "p",
+      "positionName": "President",
+      "positionOrder": 1
+    },
+    {
+      "positionAcronym": "ivp",
+      "positionName": "Internal Vice President",
+      "positionOrder": 2
+    },
+    {
+      "positionAcronym": "evp",
+      "positionName": "External Vice President",
+      "positionOrder": 3
+    },
+    {
+      "positionAcronym": "s",
+      "positionName": "Secretary",
+      "positionOrder": 4
+    },
+    {
+      "positionAcronym": "t",
+      "positionName": "Treasurer",
+      "positionOrder": 5
+    },
+    {
+      "positionAcronym": "a",
+      "positionName": "Auditor",
+      "positionOrder": 6
+    },
+    {
+      "positionAcronym": "pio1",
+      "positionName": "1st Year P.I.O",
+      "positionOrder": 7
+    },
+    {
+      "positionAcronym": "pio2",
+      "positionName": "2nd Year P.I.O",
+      "positionOrder": 8
+    },
+    {
+      "positionAcronym": "pio3",
+      "positionName": "3rd Year P.I.O",
+      "positionOrder": 9
+    }
+  ],
+  "users": {
+    "18200088": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Bulagsac, Mark Joseph",
+      "voted": false
+    },
+    "19200050": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Alsa, Joed",
+      "voted": false
+    },
+    "19200177": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Bediña, Adrian",
+      "voted": true
+    },
+    "19200333": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Monceda, Mary Shallou",
+      "voted": true
+    },
+    "19202021": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Muñoz, Kisha Abbygale",
+      "voted": true
+    },
+    "20200049": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Nepomuceno, Ma. Sandra",
+      "voted": false
+    },
+    "20200087": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Manlangit, Khym",
+      "voted": true
+    },
+    "20200150": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Celino, Dezyrel",
+      "voted": true
+    },
+    "20200199": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Payusan, Ronnel",
+      "voted": true
+    },
+    "20200244": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Hondrada, Paolo Tristan",
+      "voted": true
+    },
+    "20200315": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Rivera, Nicole Anne",
+      "voted": true
+    },
+    "20200359": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Ragas, Zeus",
+      "voted": true
+    },
+    "20200365": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Belciña, Shyne Angela",
+      "voted": true
+    },
+    "20200372": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Dotollo, Ma Shielo",
+      "voted": false
+    },
+    "20200380": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Labrador, Hannah Grace",
+      "voted": true
+    },
+    "20200398": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Aguitong, John Mark",
+      "voted": true
+    },
+    "20200431": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Amatiaga, Joshua",
+      "voted": true
+    },
+    "20200448": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Dela Peña, Glen",
+      "voted": true
+    },
+    "20200479": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Bejer, Mary Anne",
+      "voted": true
+    },
+    "20200489": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Allusada, May Ann",
+      "voted": true
+    },
+    "20200490": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Gelay, Daphne Guinevere",
+      "voted": true
+    },
+    "20200502": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Cortes, Peter Vincent",
+      "voted": true
+    },
+    "20200503": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Osorio, Florydian Marie",
+      "voted": true
+    },
+    "20200505": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Pandoro, Manilyn",
+      "voted": true
+    },
+    "20200574": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Legaspi, Harry",
+      "voted": true
+    },
+    "20200587": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Albaran, Kyla",
+      "voted": false
+    },
+    "20200599": {
+      "admin": true,
+      "course": "BSBA-HRM4-A2",
+      "name": "Gelbolingo, Niezel Mae",
+      "voted": true
+    },
+    "20200621": {
+      "admin": true,
+      "course": "BSBA-HRM4-A1",
+      "name": "Villas, Klaire",
+      "voted": true
+    },
+    "20200708": {
+      "admin": true,
+      "course": "BSBA-HRM2-A1",
+      "name": "Heredia, Ashly Dianne",
+      "voted": true
+    },
+    "20200728": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Espi, Glejon Dave",
+      "voted": true
+    },
+    "20200729": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Espi, Jomil",
+      "voted": true
+    },
+    "20200730": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Flores, John Jovic",
+      "voted": true
+    },
+    "20200735": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Suplito, James Louel",
+      "voted": false
+    },
+    "20200739": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Bautro, Alieza Jane",
+      "voted": true
+    },
+    "20200747": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Eborda, Ruth Nicole",
+      "voted": true
+    },
+    "20200748": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Flores, Jhanela Marielle",
+      "voted": true
+    },
+    "20200750": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Hontiveros, Leisley",
+      "voted": true
+    },
+    "20200751": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Lagahid, Christine Kaizza",
+      "voted": true
+    },
+    "20200752": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Legaspi , Armi Jane",
+      "voted": true
+    },
+    "20200793": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Revalde, Claudette",
+      "voted": true
+    },
+    "20200798": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Obiedo, Honey Jane",
+      "voted": true
+    },
+    "20200802": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Bustamante, Mark William",
+      "voted": true
+    },
+    "20200803": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Carilimdiliman, Randulph",
+      "voted": false
+    },
+    "20200821": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Villahermosa, John Derek",
+      "voted": true
+    },
+    "20200852": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Alipin, Aubrey Glory Vill",
+      "voted": true
+    },
+    "20200863": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Donal, Elissah Mei",
+      "voted": true
+    },
+    "20200950": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Osorno, Renato",
+      "voted": true
+    },
+    "20200954": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Amarila, Dominico",
+      "voted": true
+    },
+    "20201145": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Amarila, Marcil",
+      "voted": true
+    },
+    "20203146": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Glodove, Enrique Iii",
+      "voted": true
+    },
+    "21200040": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Enema, Mylene",
+      "voted": true
+    },
+    "21200115": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Heredia, Ma. Cleofa",
+      "voted": true
+    },
+    "21200116": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Batoctoy, Jenelyn",
+      "voted": true
+    },
+    "21200220": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Osorno, Carl Lawrence",
+      "voted": false
+    },
+    "21200403": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Balansag, Guenevere Alysson",
+      "voted": true
+    },
+    "21200568": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Ejurango, Gilbert",
+      "voted": true
+    },
+    "21200709": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Osorio, Rogaciano",
+      "voted": true
+    },
+    "21200795": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Hernaez, Alexis",
+      "voted": true
+    },
+    "21200830": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Narvasa, Mark Angelo",
+      "voted": true
+    },
+    "21200904": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Emehillano, Dave",
+      "voted": true
+    },
+    "21201058": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Otom, Kristie Mae",
+      "voted": true
+    },
+    "21201072": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Nique, Diovin Franz",
+      "voted": true
+    },
+    "21201096": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Matugas, Christian",
+      "voted": false
+    },
+    "21201113": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Tapdasan, Ralph",
+      "voted": true
+    },
+    "21207862": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Entice, Jade",
+      "voted": true
+    },
+    "22200004": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Indig, Jose Robert",
+      "voted": true
+    },
+    "22200005": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Lugue, Jennilyn",
+      "voted": true
+    },
+    "22200007": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Orozco, Ivan",
+      "voted": true
+    },
+    "22200009": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Estorgio, Chanlie",
+      "voted": false
+    },
+    "22200012": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Castillon, Kissha Claire",
+      "voted": true
+    },
+    "22200013": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Ybañez, Carlito",
+      "voted": true
+    },
+    "22200014": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Robin, Christian Lee",
+      "voted": true
+    },
+    "22200015": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Payusan, Edrian",
+      "voted": false
+    },
+    "22200016": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Amancio, Clarissa",
+      "voted": false
+    },
+    "22200017": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Entoma, Cathleen",
+      "voted": true
+    },
+    "22200018": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Fajardo, Krystelle Ashleigh Marie",
+      "voted": true
+    },
+    "22200028": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Calvo, Mark Anthony",
+      "voted": true
+    },
+    "22200034": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Alonzo, Bernadette",
+      "voted": true
+    },
+    "22200037": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Sefuentes, Kiare Jed",
+      "voted": true
+    },
+    "22200038": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Carabana , John Roid",
+      "voted": true
+    },
+    "22200039": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Asenjo, Harold Jay",
+      "voted": true
+    },
+    "22200048": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Coronel, Charlie",
+      "voted": true
+    },
+    "22200051": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Ruben, Anabelle",
+      "voted": true
+    },
+    "22200052": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Lopez, Ker Vincent",
+      "voted": true
+    },
+    "22200054": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Desunia, Juliene",
+      "voted": true
+    },
+    "22200055": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Butas, Marielle Kaye",
+      "voted": true
+    },
+    "22200056": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Beldad, Kristal Jane",
+      "voted": true
+    },
+    "22200057": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Villahermosa, Krizzette",
+      "voted": true
+    },
+    "22200060": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Ambrad, Jan Niño",
+      "voted": true
+    },
+    "22200071": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Oropeza, Imee Rose",
+      "voted": true
+    },
+    "22200072": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Sanoy, Ishin Gabrielle",
+      "voted": true
+    },
+    "22200073": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Carubio, Russel",
+      "voted": false
+    },
+    "22200074": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Carubio, Sandarah May",
+      "voted": true
+    },
+    "22200075": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Inoc, Jhon Michael",
+      "voted": true
+    },
+    "22200079": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Aliñabon, Jessica",
+      "voted": false
+    },
+    "22200086": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Acuña, Rhea Lyn",
+      "voted": true
+    },
+    "22200087": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Acuña, Wendell",
+      "voted": false
+    },
+    "22200088": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Acuña, Mecha",
+      "voted": true
+    },
+    "22200098": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Baldomar, Hxyries Mae",
+      "voted": true
+    },
+    "22200099": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Aya-Ay, Christian",
+      "voted": true
+    },
+    "22200101": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Amatril, Quicelle Joy",
+      "voted": true
+    },
+    "22200105": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Setal, Jinemae",
+      "voted": true
+    },
+    "22200107": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Bejuna, Brian Jush",
+      "voted": true
+    },
+    "22200112": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Bolaño, April Ann",
+      "voted": true
+    },
+    "22200114": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Amate, Mary Antoniett",
+      "voted": true
+    },
+    "22200115": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Genilo, Bryan Kit",
+      "voted": true
+    },
+    "22200116": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Dizon, Kristel Anne",
+      "voted": true
+    },
+    "22200117": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Bustamante, Dinah Mae",
+      "voted": true
+    },
+    "22200118": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Varela, Zarah Jean",
+      "voted": true
+    },
+    "22200122": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Indig, Milven",
+      "voted": false
+    },
+    "22200126": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Bejer, Jessica",
+      "voted": true
+    },
+    "22200132": {
+      "admin": true,
+      "course": "BSBA-HRM4-A1",
+      "name": "Debuayan, Philnes Marie",
+      "voted": true
+    },
+    "22200134": {
+      "admin": true,
+      "course": "BSBA-HRM4-A1",
+      "name": "Debuayan, Mhae Shyllny",
+      "voted": true
+    },
+    "22200140": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Muñoz, Gerald Mark",
+      "voted": true
+    },
+    "22200143": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Pueblo, Jessie",
+      "voted": true
+    },
+    "22200144": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Batoctoy, Chelsea Mae",
+      "voted": true
+    },
+    "22200151": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Amatril, Marie Nicole",
+      "voted": true
+    },
+    "22200152": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Judilla, Hannah Marie",
+      "voted": true
+    },
+    "22200155": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Campomanes, Jake",
+      "voted": true
+    },
+    "22200162": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Andrade, Jeanne Marie",
+      "voted": true
+    },
+    "22200172": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Lodovice, Ma. Theresa",
+      "voted": true
+    },
+    "22200178": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Aguitong, John Michael",
+      "voted": false
+    },
+    "22200180": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Saberon, Ethyl",
+      "voted": false
+    },
+    "22200185": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Quiza, John Gabriel",
+      "voted": true
+    },
+    "22200187": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Flores, Mary Claire",
+      "voted": true
+    },
+    "22200189": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Ibañez, Khin Andrea",
+      "voted": true
+    },
+    "22200192": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Gamboa, Gemma",
+      "voted": true
+    },
+    "22200208": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Ababon, Jhorlin",
+      "voted": true
+    },
+    "22200219": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Heye, Jayson",
+      "voted": true
+    },
+    "22200224": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Alonso, Mary Grace",
+      "voted": true
+    },
+    "22200230": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Moran, Jasmine",
+      "voted": true
+    },
+    "22200231": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Moreno, Hazel",
+      "voted": true
+    },
+    "22200232": {
+      "admin": true,
+      "course": "BSBA-HRM4-A1",
+      "name": "Verano, Mae Heart",
+      "voted": true
+    },
+    "22200236": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Debalucos, Carolyn",
+      "voted": false
+    },
+    "22200237": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Albasin, Jenny Rose",
+      "voted": true
+    },
+    "22200249": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Gesalan, Ron Jarmaine",
+      "voted": false
+    },
+    "22200254": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Otom, Allyza Eunice",
+      "voted": true
+    },
+    "22200269": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Veniegra, Jayrolle",
+      "voted": true
+    },
+    "22200271": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Vergara, Iverson",
+      "voted": true
+    },
+    "22200277": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Caruzca, Renz Jay",
+      "voted": true
+    },
+    "22200293": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Ylaya, Glaydel",
+      "voted": true
+    },
+    "22200301": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Cariliman, Kef Merja",
+      "voted": true
+    },
+    "22200314": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Bruce, Archelyn",
+      "voted": true
+    },
+    "22200327": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Jurak, Jhon Ryan",
+      "voted": true
+    },
+    "22200333": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Entoma, Annalyn",
+      "voted": true
+    },
+    "22200352": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Sestoso, Jandrell",
+      "voted": true
+    },
+    "22200353": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Monceda, Auren",
+      "voted": true
+    },
+    "22200357": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Velos, Lara Jane",
+      "voted": true
+    },
+    "22200370": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Belandres, Shenli Lou",
+      "voted": true
+    },
+    "22200371": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Dela Rosa, Sheryl",
+      "voted": true
+    },
+    "22200374": {
+      "admin": true,
+      "course": "BSHM2-A1",
+      "name": "Zambrano, Zandrei",
+      "voted": true
+    },
+    "22200393": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Delos Santos, Hope",
+      "voted": true
+    },
+    "22200396": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Rivera, Adelito",
+      "voted": true
+    },
+    "22200404": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Marañon, Eliza Mae",
+      "voted": true
+    },
+    "22200412": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Rivera, Eleonor",
+      "voted": true
+    },
+    "22200414": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Benabente, Rolgen",
+      "voted": true
+    },
+    "22200441": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Trusan, Marry Joy",
+      "voted": true
+    },
+    "22200448": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Obrador, Mary Ann",
+      "voted": true
+    },
+    "22200454": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Gelaga, Rhizza Kyaene",
+      "voted": true
+    },
+    "22200473": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Anoba, Jenycel",
+      "voted": true
+    },
+    "22200481": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Largo, Richard Ian",
+      "voted": true
+    },
+    "22200485": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Dinopol, Elvin John",
+      "voted": false
+    },
+    "22200486": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Bontia, Ryle Mae",
+      "voted": true
+    },
+    "22200490": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Ambrad, Jovelyn",
+      "voted": true
+    },
+    "22200497": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Rubin, Neco Clyde",
+      "voted": false
+    },
+    "22200500": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Quinto, Rochelle",
+      "voted": true
+    },
+    "22200502": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Generalao, Jean Paula",
+      "voted": true
+    },
+    "22200509": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Teleron, Meil John",
+      "voted": true
+    },
+    "22200510": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Alcantara, John Rafael",
+      "voted": true
+    },
+    "22200512": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Vasay, Angelica",
+      "voted": true
+    },
+    "22200527": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Calungsod, Mary Joy",
+      "voted": true
+    },
+    "22200539": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Denuyo, Renalyn",
+      "voted": true
+    },
+    "22200542": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Abitona, Ecer",
+      "voted": true
+    },
+    "22200543": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Gamboa, Dexter",
+      "voted": true
+    },
+    "22200549": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Cena, Shan Reed",
+      "voted": true
+    },
+    "22200551": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Lopez, Zarina Althea",
+      "voted": true
+    },
+    "22200554": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Quevedo, Chrile Dave",
+      "voted": true
+    },
+    "22200558": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Llenado, Romeo Jr.",
+      "voted": true
+    },
+    "22200559": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Lirasan, Ma. Divina",
+      "voted": true
+    },
+    "22200563": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Getutua, Jhonalia",
+      "voted": true
+    },
+    "22200565": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Belia, Maria Neri",
+      "voted": true
+    },
+    "22200566": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Nepomuceno, Krizza",
+      "voted": true
+    },
+    "22200567": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Tangpos, John Ivan",
+      "voted": true
+    },
+    "22200569": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Tangpos, Rey Jay",
+      "voted": true
+    },
+    "22200572": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Dautil, John Rex",
+      "voted": true
+    },
+    "22200576": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Moran, Michael John",
+      "voted": true
+    },
+    "22200577": {
+      "admin": true,
+      "course": "BSBA-HRM4-A2",
+      "name": "Mejares, Wendelyn",
+      "voted": true
+    },
+    "22200591": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Argawanon, Nilo",
+      "voted": true
+    },
+    "22200594": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Cuerpo, Keneth Harvey",
+      "voted": false
+    },
+    "22200596": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Belamia, Kurt Ian",
+      "voted": true
+    },
+    "22200600": {
+      "admin": false,
+      "course": "BSHM4-A3",
+      "name": "Dollente, Fernando",
+      "voted": true
+    },
+    "22200601": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Ocaña, Nico Cyryl",
+      "voted": true
+    },
+    "22200602": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Luardo, Clifford Niño",
+      "voted": false
+    },
+    "22200606": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Punay, Herzley Nicole",
+      "voted": true
+    },
+    "22200610": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Legaspi, Diana Mae",
+      "voted": true
+    },
+    "22200612": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Dicdican, Xander Angelo",
+      "voted": true
+    },
+    "22200636": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Lendio, Francis Dale",
+      "voted": true
+    },
+    "22200637": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Aguitong, Sheena Mae",
+      "voted": true
+    },
+    "22200638": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Aguitong , Gayle",
+      "voted": true
+    },
+    "22200653": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Dayday, Harly Debb",
+      "voted": true
+    },
+    "22200656": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Cabanlit, Mark Vincent",
+      "voted": true
+    },
+    "22200659": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Sardido, Christian Jay",
+      "voted": false
+    },
+    "22200660": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Relampagos, Jhonabelle Jane",
+      "voted": true
+    },
+    "22200673": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Minguito, Stephen James",
+      "voted": true
+    },
+    "22200682": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Bejec, Flordeluna",
+      "voted": true
+    },
+    "22200686": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Arias, Ponce Angelo",
+      "voted": true
+    },
+    "22200687": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Celestial, Mark Lester",
+      "voted": true
+    },
+    "22200689": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Aliñabon, Lyndon Troy",
+      "voted": true
+    },
+    "22200702": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Quinto, Zindy",
+      "voted": true
+    },
+    "22200707": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Magalona, Eunice Angelene",
+      "voted": true
+    },
+    "22200710": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Medalla, Missy",
+      "voted": true
+    },
+    "22200711": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Amaquin, Jacqueline Ruth Yvonne",
+      "voted": true
+    },
+    "22200716": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Rivas, Alimpio",
+      "voted": true
+    },
+    "22200719": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Avestano, Florencia",
+      "voted": true
+    },
+    "22200732": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Iriarte, Analou",
+      "voted": true
+    },
+    "22200751": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Velasquez, Roque",
+      "voted": false
+    },
+    "22200754": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Ortado, Jan Albert",
+      "voted": true
+    },
+    "22200755": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Celestial, Benzh Khernelle",
+      "voted": true
+    },
+    "22200756": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Paz, Ricardo",
+      "voted": true
+    },
+    "22200761": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Panugan , Lord Yvonne",
+      "voted": true
+    },
+    "22200765": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Belarma, Sherwin",
+      "voted": false
+    },
+    "22200766": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Gamboa, Rhea Mae",
+      "voted": true
+    },
+    "22200771": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Ramos, Alfred",
+      "voted": true
+    },
+    "22200773": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Belandres, John Roque",
+      "voted": false
+    },
+    "22200777": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Paz, Jeri Lyle",
+      "voted": true
+    },
+    "22200785": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Villas, Eubert",
+      "voted": false
+    },
+    "22200786": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Fuentes, Baby Jean",
+      "voted": true
+    },
+    "22200788": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Niebla, Ace Mhar",
+      "voted": true
+    },
+    "22200790": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Camison, Chromwell",
+      "voted": true
+    },
+    "22200791": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Caruzca, Clyde Ivan",
+      "voted": true
+    },
+    "22200796": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Amposta, Joseph Angelo",
+      "voted": true
+    },
+    "22200812": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Machete, Laverne Trixie",
+      "voted": true
+    },
+    "22200819": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Belia, John Clayford",
+      "voted": true
+    },
+    "22200822": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Enricoso, John Lyod",
+      "voted": false
+    },
+    "22200824": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Ramos, Lister",
+      "voted": true
+    },
+    "22200827": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Campomanes, Humeldie Mae",
+      "voted": true
+    },
+    "22200830": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Heredia, Roy Aldrin",
+      "voted": true
+    },
+    "22200832": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Salonoy, Mark Niño",
+      "voted": true
+    },
+    "22200835": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Caminade, Mae",
+      "voted": true
+    },
+    "22200836": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Carzon, Dhebbie Joy",
+      "voted": true
+    },
+    "22200850": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Amar, Chris Laurence",
+      "voted": true
+    },
+    "22200858": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Belandres, Arnel",
+      "voted": true
+    },
+    "22200886": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Licanda, Jovelyn",
+      "voted": true
+    },
+    "22200890": {
+      "admin": false,
+      "course": "BSHM4-A1",
+      "name": "Beceril, Ira",
+      "voted": true
+    },
+    "22200892": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Duque, Jessica Jane",
+      "voted": true
+    },
+    "22200897": {
+      "admin": false,
+      "course": "BSBA-HRM4-A1",
+      "name": "Getaruelas, Christian",
+      "voted": true
+    },
+    "22200900": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Gelbolingo, Steffany",
+      "voted": true
+    },
+    "22200902": {
+      "admin": false,
+      "course": "BSHM4-A2",
+      "name": "Emnace, John Clifford",
+      "voted": true
+    },
+    "22200911": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Dibdib, Jay Ann",
+      "voted": true
+    },
+    "22200916": {
+      "admin": false,
+      "course": "BSBA-HRM4-A2",
+      "name": "Libradella, Jessa Mae",
+      "voted": true
+    },
+    "23200001": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Ordoña, Ma. Jho-Ann Mae",
+      "voted": true
+    },
+    "23200002": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Armada, Sherrylyn",
+      "voted": true
+    },
+    "23200005": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Asufra, Romelyn",
+      "voted": true
+    },
+    "23200006": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Ricafort, Peter Ii",
+      "voted": true
+    },
+    "23200007": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Belamide, Reynaldo",
+      "voted": true
+    },
+    "23200014": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Malbas, Shiela Mae",
+      "voted": true
+    },
+    "23200021": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Emos, Hannah Mae",
+      "voted": true
+    },
+    "23200022": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Cabornay, Shendyll",
+      "voted": true
+    },
+    "23200027": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Buena, Cristina",
+      "voted": true
+    },
+    "23200029": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Paulin, Mary Joyce",
+      "voted": true
+    },
+    "23200030": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Enima, Mary Jane",
+      "voted": true
+    },
+    "23200031": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "De La Piedra, Sharmen",
+      "voted": true
+    },
+    "23200032": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Comaling, Vince Carl",
+      "voted": true
+    },
+    "23200039": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Dela Pena, Justin Kenneth",
+      "voted": true
+    },
+    "23200046": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Caruz, Mark Justine",
+      "voted": true
+    },
+    "23200049": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Quevedo, Rosalia",
+      "voted": true
+    },
+    "23200050": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Lomansang, Manilyn",
+      "voted": true
+    },
+    "23200053": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Biong, Michael Angelo",
+      "voted": true
+    },
+    "23200055": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Aguilar, Pamela Roxette",
+      "voted": true
+    },
+    "23200057": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Capote, Karen Jhoy",
+      "voted": true
+    },
+    "23200058": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Momo, Hannah",
+      "voted": true
+    },
+    "23200065": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Ariola, Genrelle",
+      "voted": true
+    },
+    "23200070": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Omnus, Rosalyn",
+      "voted": true
+    },
+    "23200074": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Millan, France Jensen",
+      "voted": true
+    },
+    "23200078": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Famat, Meynard",
+      "voted": true
+    },
+    "23200086": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Salonoy, Maragene",
+      "voted": true
+    },
+    "23200087": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Amancio, Mariel",
+      "voted": true
+    },
+    "23200088": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Punay, Shara Jean",
+      "voted": true
+    },
+    "23200089": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Revalde, Ivy Marie",
+      "voted": true
+    },
+    "23200108": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Radana, Angel Lianc",
+      "voted": true
+    },
+    "23200109": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Carao, Irene",
+      "voted": true
+    },
+    "23200112": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Bustamante, Shantal Marie",
+      "voted": true
+    },
+    "23200113": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Bajenting, James Anthony",
+      "voted": true
+    },
+    "23200119": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Caruz, Jessel",
+      "voted": true
+    },
+    "23200120": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Canastra, Niel Anthony",
+      "voted": true
+    },
+    "23200124": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Cejudo, Jay Ann",
+      "voted": true
+    },
+    "23200125": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Damandaman, John Rey",
+      "voted": true
+    },
+    "23200141": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Villacorta, Marylen",
+      "voted": true
+    },
+    "23200142": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Vergara, Jhaina",
+      "voted": true
+    },
+    "23200153": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Ensalada, Roldan",
+      "voted": true
+    },
+    "23200155": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Molina, James",
+      "voted": true
+    },
+    "23200161": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Fajardo, Nicky Ann",
+      "voted": true
+    },
+    "23200162": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Macaraya, Alvie Dave",
+      "voted": true
+    },
+    "23200167": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Belia, Jeric",
+      "voted": true
+    },
+    "23200169": {
+      "admin": true,
+      "course": "BSBA-HRM3-A1",
+      "name": "Pendon, Mary Joyce",
+      "voted": true
+    },
+    "23200184": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Morales, Michael",
+      "voted": true
+    },
+    "23200190": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Aguitong, Clarence",
+      "voted": true
+    },
+    "23200192": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Fuentes, Frances Lou",
+      "voted": true
+    },
+    "23200193": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Ambrad, Kevin Dave",
+      "voted": true
+    },
+    "23200200": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Gulbin, Thrisha Mae",
+      "voted": true
+    },
+    "23200202": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Belia, Gerald",
+      "voted": true
+    },
+    "23200206": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Aliñabon, Mariane",
+      "voted": true
+    },
+    "23200207": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Bustamante, Mae Ann",
+      "voted": true
+    },
+    "23200214": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Trazo, Maebelyn",
+      "voted": true
+    },
+    "23200223": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Basitas, Ramon",
+      "voted": true
+    },
+    "23200232": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Pilare, Jean Candylou",
+      "voted": true
+    },
+    "23200238": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Lataza, Angelie",
+      "voted": true
+    },
+    "23200240": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Apostol, Shaina",
+      "voted": true
+    },
+    "23200241": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Luague, Hally",
+      "voted": true
+    },
+    "23200244": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Diray, Maria Jenalyn",
+      "voted": true
+    },
+    "23200245": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Cinco, Jeff Laurence",
+      "voted": true
+    },
+    "23200253": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Medrico, John Rel",
+      "voted": true
+    },
+    "23200258": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Ritumalta, Jannah Samantha",
+      "voted": true
+    },
+    "23200263": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Galvan, Jonavil",
+      "voted": true
+    },
+    "23200268": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Marañon, Steve",
+      "voted": true
+    },
+    "23200275": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Punay, Yuri Xavier",
+      "voted": false
+    },
+    "23200276": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Antig, Lochinvar",
+      "voted": true
+    },
+    "23200282": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Suarez, Gibryan",
+      "voted": false
+    },
+    "23200283": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Tuga-On, Kire Rosell",
+      "voted": true
+    },
+    "23200284": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Pepino, Heslee Shane",
+      "voted": true
+    },
+    "23200290": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Amarado, Richell Ann",
+      "voted": true
+    },
+    "23200295": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Sanoy, Ericka Kamille",
+      "voted": true
+    },
+    "23200302": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Dinopol, Earl Joseph",
+      "voted": true
+    },
+    "23200306": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Bagtong, Maxine Rhean",
+      "voted": true
+    },
+    "23200308": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Aliñabon, Elsar",
+      "voted": true
+    },
+    "23200309": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Judilla, Halena Joy",
+      "voted": true
+    },
+    "23200310": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Susvilla, Lynch Mayrelle",
+      "voted": true
+    },
+    "23200314": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Durohom, Lady Amor",
+      "voted": true
+    },
+    "23200316": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Camanzo, Dina",
+      "voted": true
+    },
+    "23200319": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Medida, Jovelito",
+      "voted": true
+    },
+    "23200322": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Centino, Andrew",
+      "voted": false
+    },
+    "23200325": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Jurac, Josephine",
+      "voted": true
+    },
+    "23200328": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Batoctoy, Else",
+      "voted": true
+    },
+    "23200337": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Quevedo, Princess Chimly",
+      "voted": true
+    },
+    "23200344": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Belado, Xavier Yves",
+      "voted": true
+    },
+    "23200348": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Delposo, Angelie",
+      "voted": true
+    },
+    "23200349": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Ensalada, Charls",
+      "voted": true
+    },
+    "23200351": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Cabungcag, Vick Garner",
+      "voted": true
+    },
+    "23200352": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Godinez, Christian James",
+      "voted": true
+    },
+    "23200353": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Tugot, Syrdjean Zyle",
+      "voted": false
+    },
+    "23200366": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Alcaria, Angelei Rose",
+      "voted": true
+    },
+    "23200368": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Cabanes, Kyla",
+      "voted": true
+    },
+    "23200370": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Amarado, Jamby",
+      "voted": true
+    },
+    "23200372": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Tangpos, Daniel",
+      "voted": false
+    },
+    "23200380": {
+      "admin": false,
+      "course": "BSHM3-A1",
+      "name": "Besin, Charlene Jane",
+      "voted": true
+    },
+    "23201468": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Romanillos, Limar Ace",
+      "voted": true
+    },
+    "24200006": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Hontiveros, Karyll",
+      "voted": true
+    },
+    "24200007": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Lingaro, Alena",
+      "voted": true
+    },
+    "24200009": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Alza, Johannes Pauli",
+      "voted": true
+    },
+    "24200010": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Doronila, Brandon",
+      "voted": true
+    },
+    "24200023": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Amad, Kreisler",
+      "voted": true
+    },
+    "24200026": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Ramos, Jose Christopher",
+      "voted": true
+    },
+    "24200032": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Gerat, Vincent Esteban",
+      "voted": true
+    },
+    "24200035": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Rizon, Christine Jade",
+      "voted": true
+    },
+    "24200038": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Caballero, Jebie",
+      "voted": true
+    },
+    "24200041": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Ebarola, Mary Louise",
+      "voted": true
+    },
+    "24200043": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Gesim, Mary Joyce Vhyve",
+      "voted": true
+    },
+    "24200045": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Gunhuran, Ryza Lyn",
+      "voted": true
+    },
+    "24200046": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Zuñega, Sydney",
+      "voted": true
+    },
+    "24200048": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Belamia, Erika May",
+      "voted": true
+    },
+    "24200050": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Llenado, Ronalyn",
+      "voted": true
+    },
+    "24200051": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Allanic, James Clark",
+      "voted": true
+    },
+    "24200054": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Arias, Harold",
+      "voted": true
+    },
+    "24200059": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Lataza, John Khert",
+      "voted": true
+    },
+    "24200062": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Camilo, Kent Alpy",
+      "voted": true
+    },
+    "24200074": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Belanizo, Britney",
+      "voted": true
+    },
+    "24200075": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Becbec, Sunshine",
+      "voted": true
+    },
+    "24200078": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Revellas, Ara Mae",
+      "voted": true
+    },
+    "24200079": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Abelgas, James Elvis",
+      "voted": false
+    },
+    "24200081": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Belarma, Ian Lawrence",
+      "voted": true
+    },
+    "24200083": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Caruz, Jean Claude",
+      "voted": true
+    },
+    "24200087": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Famat, Dinah Marie",
+      "voted": true
+    },
+    "24200091": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Tobes, Argine",
+      "voted": true
+    },
+    "24200094": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Albaran, Michael Jade",
+      "voted": true
+    },
+    "24200095": {
+      "admin": true,
+      "course": "BSHM2-A1",
+      "name": "Albaran, Mary Joy",
+      "voted": true
+    },
+    "24200099": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Carumba, Sophia",
+      "voted": true
+    },
+    "24200103": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Godinez, Ian Sine",
+      "voted": true
+    },
+    "24200104": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Suico, Dianah Jeann",
+      "voted": true
+    },
+    "24200106": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Cantara, Mark Dave",
+      "voted": true
+    },
+    "24200107": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Cantara, Mark Daniel",
+      "voted": true
+    },
+    "24200112": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Chavez, Tresha Jane",
+      "voted": true
+    },
+    "24200114": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Narca, Ralph Benedict",
+      "voted": false
+    },
+    "24200123": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Zambrano, Marychel",
+      "voted": true
+    },
+    "24200125": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Cerenio, Keneth",
+      "voted": false
+    },
+    "24200129": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Saquitan, Zedrian Danier",
+      "voted": true
+    },
+    "24200130": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Ultiano, Jerome",
+      "voted": true
+    },
+    "24200131": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Arda, Marhu Jashline",
+      "voted": true
+    },
+    "24200134": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Enopia, Ed Brian",
+      "voted": true
+    },
+    "24200136": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Oyangoren, Niña Mica",
+      "voted": true
+    },
+    "24200138": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Piano, Jomar",
+      "voted": true
+    },
+    "24200142": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Martinez, Rochelle Mae",
+      "voted": true
+    },
+    "24200151": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Arnaiz, Nekkie",
+      "voted": true
+    },
+    "24200153": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Pantinople, Regie",
+      "voted": true
+    },
+    "24200157": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Amaya, Evangelyn",
+      "voted": true
+    },
+    "24200158": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Amandoron, James",
+      "voted": true
+    },
+    "24200162": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Enguio, Raniza",
+      "voted": true
+    },
+    "24200164": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Ragada, Diocleciano Jr.",
+      "voted": true
+    },
+    "24200165": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Millan, Joy Kim Fritchie",
+      "voted": true
+    },
+    "24200167": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Lunor, Humphrey John",
+      "voted": false
+    },
+    "24200170": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Quevedo, Regine",
+      "voted": true
+    },
+    "24200174": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Nepomuceno, Kevin",
+      "voted": true
+    },
+    "24200176": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Getongo, Keinth Justine",
+      "voted": true
+    },
+    "24200177": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Rodriguez, Paul Kirvie",
+      "voted": true
+    },
+    "24200182": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Escalante, Jean Efraim",
+      "voted": true
+    },
+    "24200193": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Famat, Meth Angela",
+      "voted": true
+    },
+    "24200197": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Fegarido, Kimberly Ann",
+      "voted": true
+    },
+    "24200198": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Linejan, Ahmie Myca",
+      "voted": true
+    },
+    "24200201": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Vergara, Alexis Einstein",
+      "voted": true
+    },
+    "24200203": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Manila, Jankerth ",
+      "voted": true
+    },
+    "24200204": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Tecson, Roland",
+      "voted": true
+    },
+    "24200208": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Lenares, Mary Kate",
+      "voted": true
+    },
+    "24200210": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Besmanos, Bern Kendrid",
+      "voted": true
+    },
+    "24200211": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Silaya, Hanny Mae",
+      "voted": true
+    },
+    "24200213": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Birondo, Eliane Andre",
+      "voted": true
+    },
+    "24200214": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Ortega, Jurgette",
+      "voted": true
+    },
+    "24200222": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Carzon, Wenly Kaye",
+      "voted": true
+    },
+    "24200223": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Pueblo, John Renz",
+      "voted": true
+    },
+    "24200225": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Endaya, Karl Anthony",
+      "voted": true
+    },
+    "24200226": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Japus, James Mark",
+      "voted": true
+    },
+    "24200227": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Jabagat, John Paul",
+      "voted": true
+    },
+    "24200228": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Chan, Axell Gerald",
+      "voted": true
+    },
+    "24200231": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Requina, Jonas",
+      "voted": true
+    },
+    "24200233": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Doquila, Jenalyn",
+      "voted": true
+    },
+    "24200237": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Romares, Jane",
+      "voted": true
+    },
+    "24200238": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Omandac, Jozel",
+      "voted": true
+    },
+    "24200239": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Angcay, Kerven John",
+      "voted": true
+    },
+    "24200241": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Amaro, Kleint Marlou",
+      "voted": true
+    },
+    "24200242": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Belamia, Glaizel Ann",
+      "voted": true
+    },
+    "24200244": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Ambrad, Jevie",
+      "voted": true
+    },
+    "24200247": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Mamac, Charlon",
+      "voted": true
+    },
+    "24200248": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Albite, Reynan",
+      "voted": true
+    },
+    "24200250": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Centeno, Fiona Gabrielle",
+      "voted": true
+    },
+    "24200254": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Obligado, Fe",
+      "voted": true
+    },
+    "24200256": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Carungay, Elgen",
+      "voted": true
+    },
+    "24200257": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Dizon, Carl Vincent",
+      "voted": true
+    },
+    "24200261": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Fajardo, Kent Joseph",
+      "voted": true
+    },
+    "24200262": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Naces, Christian",
+      "voted": true
+    },
+    "24200263": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Salazar, Tiger",
+      "voted": true
+    },
+    "24200264": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Vasquez, Reybhen",
+      "voted": false
+    },
+    "24200267": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Jumawan, Annalou",
+      "voted": true
+    },
+    "24200269": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Rosales, Christopher Ananias",
+      "voted": true
+    },
+    "24200272": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Belda, Ma. Joanne",
+      "voted": true
+    },
+    "24200277": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Niebla, Banker",
+      "voted": true
+    },
+    "24200278": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Monong, Louvilmay",
+      "voted": true
+    },
+    "24200280": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Quiamco, Mark Kevin",
+      "voted": true
+    },
+    "24200284": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Entoma, Kisha Lorraine",
+      "voted": true
+    },
+    "24200285": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Velasquez, Jefford",
+      "voted": true
+    },
+    "24200286": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Medrano, Merc Steven",
+      "voted": true
+    },
+    "24200287": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Labrador, Jilliane",
+      "voted": true
+    },
+    "24200288": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Mariscal, Evelyn",
+      "voted": true
+    },
+    "24200291": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Glipa, Melvin",
+      "voted": true
+    },
+    "24200297": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Villarta, Hope Joy",
+      "voted": true
+    },
+    "24200299": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Villahermosa, Joross",
+      "voted": false
+    },
+    "24200304": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Carumba, Lora Sophia",
+      "voted": true
+    },
+    "24200310": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Lenares, Irrah",
+      "voted": true
+    },
+    "24200312": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Bornea, Jeicel",
+      "voted": true
+    },
+    "24200324": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Torregosa, Jose Emmanuelle",
+      "voted": true
+    },
+    "24200325": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Flores, Kian Glenn",
+      "voted": true
+    },
+    "24200333": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Dueñas, Kezia Mae",
+      "voted": false
+    },
+    "24200334": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Duarte, Deanver John",
+      "voted": true
+    },
+    "24200335": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Blasco, John Benedict",
+      "voted": true
+    },
+    "24200338": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Cuerpo, Jamilla Miel",
+      "voted": true
+    },
+    "24200341": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Cejudo, Marc Lawrence",
+      "voted": true
+    },
+    "24200342": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Fuentes, John Paul",
+      "voted": true
+    },
+    "24200345": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Ocampo, Joey",
+      "voted": true
+    },
+    "24200346": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Dueñas, Chad Aron",
+      "voted": true
+    },
+    "24200348": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Obiedo, Maribel",
+      "voted": true
+    },
+    "24200349": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Prencisa, Althea Natasha",
+      "voted": true
+    },
+    "24200352": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Selerio, Jinky",
+      "voted": true
+    },
+    "24200353": {
+      "admin": false,
+      "course": "BSBA-HRM2-A1",
+      "name": "Mendez, Clenth Dyll",
+      "voted": true
+    },
+    "24200360": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Entice, James Daniel",
+      "voted": true
+    },
+    "24200362": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Llena, John Christian Mike",
+      "voted": true
+    },
+    "24200366": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Tangpos, Eugene",
+      "voted": true
+    },
+    "24200368": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Rubin, Niño Jerald",
+      "voted": true
+    },
+    "24200370": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Enolpe, Kyll",
+      "voted": true
+    },
+    "24200372": {
+      "admin": false,
+      "course": "BSHM2-A1",
+      "name": "Cutara, Aizegel",
+      "voted": true
+    },
+    "25200002": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Cariliman, Cherry Mae",
+      "voted": true
+    },
+    "25200003": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Salonoy, Honelyn",
+      "voted": true
+    },
+    "25200010": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Satorre, Myllah",
+      "voted": true
+    },
+    "25200012": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Aberion, Mary Arnelyn",
+      "voted": true
+    },
+    "25200015": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Gamboa, Wilhelm Jay",
+      "voted": true
+    },
+    "25200018": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Namol, Kimberly",
+      "voted": true
+    },
+    "25200022": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Mier, Charles",
+      "voted": false
+    },
+    "25200023": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Aliñabon, Richard",
+      "voted": true
+    },
+    "25200027": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Amancio, Ma. Cinderella",
+      "voted": true
+    },
+    "25200028": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Mariscal, Sarah Mae",
+      "voted": true
+    },
+    "25200029": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Perez, Shawn Michael",
+      "voted": true
+    },
+    "25200031": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Gelig, Joana Marie",
+      "voted": true
+    },
+    "25200032": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Cuestas, Angel",
+      "voted": true
+    },
+    "25200033": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Gallo, Leonor",
+      "voted": true
+    },
+    "25200034": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Trazo, Stephanie",
+      "voted": true
+    },
+    "25200037": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Abregana, Colen",
+      "voted": true
+    },
+    "25200038": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Tan, Kristoffer Louiesse",
+      "voted": true
+    },
+    "25200041": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Amamangpang, Raffy",
+      "voted": true
+    },
+    "25200044": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Salvador, Stanley",
+      "voted": true
+    },
+    "25200055": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Rejoy, Elbin",
+      "voted": true
+    },
+    "25200056": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Cañon, Louie Angel",
+      "voted": false
+    },
+    "25200059": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Biarcal, Jhon Lee",
+      "voted": true
+    },
+    "25200060": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Perpo, Rheza Mae",
+      "voted": true
+    },
+    "25200061": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Perpo, Anthony",
+      "voted": true
+    },
+    "25200064": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Monseda, Jersam",
+      "voted": true
+    },
+    "25200065": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Dueñas, Jun R",
+      "voted": true
+    },
+    "25200067": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Naagas, Catherine",
+      "voted": true
+    },
+    "25200070": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Quevedo, Farrah Mae",
+      "voted": true
+    },
+    "25200075": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Caingles, Michelle",
+      "voted": true
+    },
+    "25200077": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Magdula, Rito",
+      "voted": true
+    },
+    "25200078": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Villas, Travis Jaco",
+      "voted": true
+    },
+    "25200079": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Curativo, Caye Danielle",
+      "voted": true
+    },
+    "25200080": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Lontayao, Jerome",
+      "voted": false
+    },
+    "25200084": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Baguio, Dynalyn",
+      "voted": true
+    },
+    "25200086": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Martinez, Jun Albert",
+      "voted": true
+    },
+    "25200089": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Mier, Gypsy Nicole",
+      "voted": true
+    },
+    "25200091": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Nastor, Mecaeal",
+      "voted": true
+    },
+    "25200093": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Muñoz, Ma. Marjorie",
+      "voted": true
+    },
+    "25200094": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Cuevas, Jasper",
+      "voted": true
+    },
+    "25200097": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Amar, Mark Joshua",
+      "voted": false
+    },
+    "25200098": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Villacorta, Chauncy",
+      "voted": true
+    },
+    "25200101": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Sanoy, Erica",
+      "voted": true
+    },
+    "25200102": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Baculao, Melord",
+      "voted": true
+    },
+    "25200103": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Bacayo, Ashley Fedelen",
+      "voted": true
+    },
+    "25200104": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Bornea, Ella Mae",
+      "voted": true
+    },
+    "25200106": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Betcher, Karyl Joy",
+      "voted": true
+    },
+    "25200107": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Aliñabon, Artemio Jr.",
+      "voted": true
+    },
+    "25200108": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Fajardo, Hindley",
+      "voted": true
+    },
+    "25200111": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Vasay, Justine",
+      "voted": true
+    },
+    "25200112": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Morales, Mark Spencer",
+      "voted": true
+    },
+    "25200114": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Villacorta, Sheena Ryza",
+      "voted": true
+    },
+    "25200115": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Zuniega, Riza Mae",
+      "voted": true
+    },
+    "25200117": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Abitona, Queenie Rose",
+      "voted": true
+    },
+    "25200121": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Fajardo, Ferdinand",
+      "voted": true
+    },
+    "25200124": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Bejec, Ma. Edralyn",
+      "voted": true
+    },
+    "25200127": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Batoctoy, Metoshello",
+      "voted": true
+    },
+    "25200133": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Belhida, Vinz Ranzel",
+      "voted": true
+    },
+    "25200138": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Calisang, Reynelle",
+      "voted": true
+    },
+    "25200141": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Gerebit, Seth Lloyd",
+      "voted": true
+    },
+    "25200142": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Balse, Vinz Florian",
+      "voted": false
+    },
+    "25200147": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Judilla, Charvie John",
+      "voted": true
+    },
+    "25200151": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Belandres, Jane Mica",
+      "voted": true
+    },
+    "25200153": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Dumayhag, Anna May",
+      "voted": true
+    },
+    "25200165": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Belia, Gerwill",
+      "voted": true
+    },
+    "25200166": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Pasko, Jemuel Junar",
+      "voted": true
+    },
+    "25200167": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Ortiz, Clark James",
+      "voted": true
+    },
+    "25200172": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Cabanas, Zhysa Marie",
+      "voted": false
+    },
+    "25200174": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Evangelista, Jash Cedrick",
+      "voted": true
+    },
+    "25200177": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Quirobin, Gemna",
+      "voted": true
+    },
+    "25200178": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Ensalada, Angelica",
+      "voted": true
+    },
+    "25200184": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Rubio, Elizer",
+      "voted": true
+    },
+    "25200185": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Rubin, John Warren",
+      "voted": true
+    },
+    "25200186": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Pranggos, John Niño",
+      "voted": true
+    },
+    "25200187": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Fajardo Jr, Job Joseph",
+      "voted": true
+    },
+    "25200188": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Ysao, Rheamler Ii",
+      "voted": true
+    },
+    "25200189": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Muñoz, Niño",
+      "voted": false
+    },
+    "25200190": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Miranda, Apple Raye",
+      "voted": true
+    },
+    "25200191": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Escoton, Sheila Mae",
+      "voted": true
+    },
+    "25200192": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Villahermosa, Jaira",
+      "voted": false
+    },
+    "25200193": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Cariman, Mitchie",
+      "voted": true
+    },
+    "25200194": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Superable, Boston Al",
+      "voted": false
+    },
+    "25200195": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Sirad, John Cliff",
+      "voted": true
+    },
+    "25200198": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Dalumpines, Liezel Mae",
+      "voted": false
+    },
+    "25200199": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Linawan, Julie Mae",
+      "voted": false
+    },
+    "25200203": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Macauba, John Lloyd",
+      "voted": false
+    },
+    "25200204": {
+      "admin": true,
+      "course": "BSHM1-A2",
+      "name": "Debulosan, Princes Gia",
+      "voted": true
+    },
+    "25200208": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Salonoy, Ma. Jhea",
+      "voted": false
+    },
+    "25200209": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Carulasan, Marissa",
+      "voted": true
+    },
+    "25200210": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Gelaga, Nifren Seraf",
+      "voted": true
+    },
+    "25200211": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Marañon, Stephanie",
+      "voted": true
+    },
+    "25200215": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Posadas, Jhune Mark",
+      "voted": true
+    },
+    "25200216": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Luna, Dustin Drew",
+      "voted": true
+    },
+    "25200219": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Aredidon, Louie Jay",
+      "voted": true
+    },
+    "25200220": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Hermoso, Jurex",
+      "voted": true
+    },
+    "25200222": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Carbon, Ferlie Marie",
+      "voted": true
+    },
+    "25200223": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Amarado, John Mico",
+      "voted": true
+    },
+    "25200224": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Labitad, Niña Cherean",
+      "voted": true
+    },
+    "25200228": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Benabente, Prince Lylle",
+      "voted": true
+    },
+    "25200231": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Quilaton, John Paul",
+      "voted": true
+    },
+    "25200234": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Ambrad, Elsie",
+      "voted": true
+    },
+    "25200235": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Villarba, Merlyn Jade",
+      "voted": true
+    },
+    "25200237": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Francisco, John Athan",
+      "voted": true
+    },
+    "25200242": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Gamboa, Ma. Nicole",
+      "voted": false
+    },
+    "25200244": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Belandres, Reyland",
+      "voted": true
+    },
+    "25200245": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Famat, Cliford",
+      "voted": false
+    },
+    "25200247": {
+      "admin": false,
+      "course": "BSBA-HRM3-A1",
+      "name": "Cortes, Junafie",
+      "voted": true
+    },
+    "25200253": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Ditchon, Wenceslao",
+      "voted": true
+    },
+    "25200256": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Lapasaran, Mary Vine",
+      "voted": true
+    },
+    "25200257": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Carballo, Justy James",
+      "voted": true
+    },
+    "25200258": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Alza, Mary Sealtiel",
+      "voted": true
+    },
+    "25200259": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Amandoron, John Bryan",
+      "voted": false
+    },
+    "25200260": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Sarmiento, Shenly Mae",
+      "voted": true
+    },
+    "25200262": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Soriano, Kevin",
+      "voted": true
+    },
+    "25200264": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Beldeniza, Mae Daylyn",
+      "voted": true
+    },
+    "25200265": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Amahan, Ma. Justine Marie",
+      "voted": true
+    },
+    "25200266": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Mendez, Carl Dexter",
+      "voted": true
+    },
+    "25200267": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Quevedo, Lyra May",
+      "voted": true
+    },
+    "25200268": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Nieves, Arneil",
+      "voted": true
+    },
+    "25200270": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Verano, Nicole",
+      "voted": true
+    },
+    "25200275": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Secosana, Elvin Jake",
+      "voted": true
+    },
+    "25200278": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Arado, Jessa Mae",
+      "voted": true
+    },
+    "25200280": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Lataza, Kyle Andrey",
+      "voted": false
+    },
+    "25200281": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Guevarra, Maria Lourdes",
+      "voted": true
+    },
+    "25200282": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Mosqueda, Riza Jean",
+      "voted": true
+    },
+    "25200283": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Alonso, Guillier",
+      "voted": true
+    },
+    "25200286": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Almedilla, Gerald",
+      "voted": true
+    },
+    "25200288": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Ramos, John Anthony",
+      "voted": false
+    },
+    "25200289": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Allusada, Carl Vincent",
+      "voted": true
+    },
+    "25200295": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Manzano, Ailyn",
+      "voted": false
+    },
+    "25200296": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Damandaman, Jarelle",
+      "voted": true
+    },
+    "25200300": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Biong, Divine Grace",
+      "voted": true
+    },
+    "25200301": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Carubio, Venz Wacky",
+      "voted": true
+    },
+    "25200302": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Abregana, Leslie",
+      "voted": true
+    },
+    "25200304": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Ambayec, John Epoh",
+      "voted": true
+    },
+    "25200305": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Alburo, Grace Irish",
+      "voted": true
+    },
+    "25200306": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Debulosan, John Floyd",
+      "voted": true
+    },
+    "25200307": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Rivas, Manuelito",
+      "voted": true
+    },
+    "25200309": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Salinas, Janelle",
+      "voted": true
+    },
+    "25200310": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Linamas, Eurey Keith",
+      "voted": true
+    },
+    "25200315": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Ortega, Eric Vincent",
+      "voted": true
+    },
+    "25200318": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Fano, Wilmer",
+      "voted": true
+    },
+    "25200319": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Garcia, Jonel",
+      "voted": true
+    },
+    "25200322": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Sumondong, Allen Kayle",
+      "voted": true
+    },
+    "25200323": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "De La Cruz, Joseph",
+      "voted": true
+    },
+    "25200325": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Siton, Stephanie Iste",
+      "voted": true
+    },
+    "25200326": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Dela Piedra, Raffy",
+      "voted": true
+    },
+    "25200327": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Amarila, Dave",
+      "voted": true
+    },
+    "25200328": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Lumayag, Jammel Michael",
+      "voted": true
+    },
+    "25200329": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Demaisip, Jim Anthony",
+      "voted": true
+    },
+    "25200330": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Mendezabal, John Nikko",
+      "voted": true
+    },
+    "25200331": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Alcantara, Chelsey",
+      "voted": true
+    },
+    "25200332": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Macaldo, Ma. Angelica",
+      "voted": true
+    },
+    "25200333": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Racho, France Harvey",
+      "voted": true
+    },
+    "25200334": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Quevedo, Kent Vincent",
+      "voted": true
+    },
+    "25200335": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Catalan, Shane Hazel",
+      "voted": true
+    },
+    "25200338": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Galeos, Lance Joseph",
+      "voted": true
+    },
+    "25200343": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Macmac, James",
+      "voted": true
+    },
+    "25200346": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Sandoval, James Adrian",
+      "voted": true
+    },
+    "25200353": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Vergara, Ad Kynz",
+      "voted": true
+    },
+    "25200359": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "De Luna, Kingsly",
+      "voted": true
+    },
+    "25200362": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Estella, Rexcel May",
+      "voted": true
+    },
+    "25200364": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Amacanin, John Alfred",
+      "voted": true
+    },
+    "25200365": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Castillo, Sigfred John",
+      "voted": true
+    },
+    "25200367": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Heredia, Alberto Jr.",
+      "voted": true
+    },
+    "25200368": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Caritan, Roselyn",
+      "voted": true
+    },
+    "25200369": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Sombilon, John Kevin",
+      "voted": true
+    },
+    "25200371": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Donal, Adriella",
+      "voted": true
+    },
+    "25200372": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Bejec, Khreisha",
+      "voted": true
+    },
+    "25200373": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Bejec, Christian Lloyd",
+      "voted": true
+    },
+    "25200376": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Villahermosa, John Fhulvs",
+      "voted": true
+    },
+    "25200377": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Carin, John Louie",
+      "voted": true
+    },
+    "25200378": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Calatero, Jhun Raquefelle",
+      "voted": true
+    },
+    "25200380": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Quingco, Chris Levent",
+      "voted": true
+    },
+    "25200383": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Ermita, Balirie",
+      "voted": true
+    },
+    "25200384": {
+      "admin": false,
+      "course": "BSHM2-A2",
+      "name": "Armada, Adroit Adrianne",
+      "voted": true
+    },
+    "25200385": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Sanoy, Jaymar",
+      "voted": true
+    },
+    "25200386": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Besin, Benz Kurt",
+      "voted": true
+    },
+    "25200388": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Dolendo, Kristine Jamila",
+      "voted": true
+    },
+    "25200390": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Lumayag, Audra Marie",
+      "voted": true
+    },
+    "25200391": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Bolambao, John Eman",
+      "voted": true
+    },
+    "25200392": {
+      "admin": false,
+      "course": "BSHM2-A3",
+      "name": "Salvaleon, Ma.Julnary Kacy",
+      "voted": true
+    },
+    "25200393": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Ensalada, Laurence",
+      "voted": true
+    },
+    "25200394": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Villela, Christine Grace",
+      "voted": true
+    },
+    "25200395": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Perez, Rosalinda",
+      "voted": true
+    },
+    "25200396": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Osorio, Karl Aldwin",
+      "voted": false
+    },
+    "25200397": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Camingao, Daina Amor",
+      "voted": true
+    },
+    "25200398": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Pegues, Quiroben",
+      "voted": true
+    },
+    "25200400": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Moras, Vance",
+      "voted": true
+    },
+    "25200402": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Villahermosa, Vince Rayniel",
+      "voted": true
+    },
+    "25200403": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Monceda, Kissie",
+      "voted": false
+    },
+    "25200406": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Cabildo, Angel",
+      "voted": true
+    },
+    "25200408": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Yubit, Pearl Ashley",
+      "voted": true
+    },
+    "25200409": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Lampaso, Jana Daniela",
+      "voted": true
+    },
+    "25200410": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Amatiaga, Mark Anthony",
+      "voted": true
+    },
+    "25200411": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Amamangpang, Hazel Rose",
+      "voted": true
+    },
+    "25200412": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Tubilla, Earl Jastine",
+      "voted": true
+    },
+    "25200413": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Ebueza, Danielle",
+      "voted": false
+    },
+    "25200414": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Roncesvalles, Jomer",
+      "voted": true
+    },
+    "25200415": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Fegarido, Kent",
+      "voted": true
+    },
+    "25200417": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Sirad, John Jherssy",
+      "voted": false
+    },
+    "25200419": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Gamboa, Edselle John",
+      "voted": false
+    },
+    "25200420": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Villacorta, Ysmael",
+      "voted": false
+    },
+    "25200421": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Pasuit, Jade Adrian",
+      "voted": true
+    },
+    "25200423": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Lentija, Jenny Rose",
+      "voted": true
+    },
+    "25200424": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Otom, Emily",
+      "voted": true
+    },
+    "25200425": {
+      "admin": false,
+      "course": "BSBA-HRM1-A1",
+      "name": "Bacalan, Shanine Nicole",
+      "voted": true
+    },
+    "25200426": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Rivera, Gerzon",
+      "voted": true
+    },
+    "25200427": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Mosqueda, Jelly",
+      "voted": true
+    },
+    "25200429": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Ybañez, Jhonnymar",
+      "voted": false
+    },
+    "25200430": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Tongco, Isenn Jude",
+      "voted": true
+    },
+    "25200431": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "De La Peña, John Hendrick",
+      "voted": true
+    },
+    "25200432": {
+      "admin": false,
+      "course": "BSHM1-A2",
+      "name": "Banosong, Mendel",
+      "voted": false
+    },
+    "25200433": {
+      "admin": false,
+      "course": "BSHM1-A3",
+      "name": "Ybañez, Derek",
+      "voted": true
+    },
+    "25200434": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Lyke, Richard",
+      "voted": true
+    },
+    "25200435": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Carzon, Kiershey Faith",
+      "voted": true
+    },
+    "25200436": {
+      "admin": false,
+      "course": "BSBA-HRM1-A2",
+      "name": "Benson, Fritz Anne Althea",
+      "voted": true
+    },
+    "25200441": {
+      "admin": false,
+      "course": "BSHM1-A1",
+      "name": "Tolentino, Charles Angelo",
+      "voted": false
+    },
+    "systemadmin": {
+      "admin": true,
+      "course": "A.D.M.I.N",
+      "name": "System Admin",
+      "voted": false
+    }
+  },
+  "votes": {
+    "19200177": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 4,
+      "t": 23
+    },
+    "19200333": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "19202021": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 22,
+      "t": 23
+    },
+    "20200087": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "20200150": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 22,
+      "t": 14
+    },
+    "20200199": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "20200244": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "20200315": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "20200359": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200365": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "s": 4,
+      "t": 5
+    },
+    "20200380": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "20200398": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "20200431": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200448": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "20200479": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200489": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 22,
+      "t": 14
+    },
+    "20200490": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "20200502": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200503": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200505": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "20200574": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 5
+    },
+    "20200599": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 22,
+      "t": 23
+    },
+    "20200621": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 22,
+      "t": 5
+    },
+    "20200708": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 17,
+      "s": 4,
+      "t": 5
+    },
+    "20200728": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "20200729": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200730": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 5
+    },
+    "20200739": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "20200747": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "20200748": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "20200750": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200751": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "s": 4,
+      "t": 5
+    },
+    "20200752": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "20200793": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200798": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "20200802": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "20200821": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "s": 4,
+      "t": 5
+    },
+    "20200852": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "20200863": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "20200950": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "20200954": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 13,
+      "t": 5
+    },
+    "20201145": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "20203146": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio3": 9,
+      "s": 4,
+      "t": 5
+    },
+    "21200040": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "21200115": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "s": 22,
+      "t": 5
+    },
+    "21200116": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 22,
+      "t": 14
+    },
+    "21200403": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 23
+    },
+    "21200568": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "21200709": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "21200795": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "21200830": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "21200904": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "21201058": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "21201072": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "21201113": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "21207862": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 14
+    },
+    "22200004": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 22,
+      "t": 14
+    },
+    "22200005": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "s": 22,
+      "t": 5
+    },
+    "22200007": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200012": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "22200013": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "22200014": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200017": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 23
+    },
+    "22200018": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200028": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200034": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200037": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200038": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "s": 13,
+      "t": 14
+    },
+    "22200039": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200048": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200051": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200052": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200054": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200055": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200056": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200057": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 4,
+      "t": 14
+    },
+    "22200060": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 14
+    },
+    "22200071": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200072": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "s": 13,
+      "t": 14
+    },
+    "22200074": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200075": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200086": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200088": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200098": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200099": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "s": 22,
+      "t": 23
+    },
+    "22200101": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200105": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200107": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "s": 4,
+      "t": 14
+    },
+    "22200112": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "s": 4,
+      "t": 14
+    },
+    "22200114": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 4,
+      "t": 14
+    },
+    "22200115": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "s": 13,
+      "t": 14
+    },
+    "22200116": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200117": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "s": 13,
+      "t": 5
+    },
+    "22200118": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200126": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "22200132": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200134": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200140": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200143": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200144": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200151": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "22200152": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "22200155": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200162": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 22,
+      "t": 23
+    },
+    "22200172": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "22200185": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200187": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200189": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200192": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 23
+    },
+    "22200208": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200219": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200224": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 4,
+      "t": 23
+    },
+    "22200230": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 10,
+      "s": 22,
+      "t": 5
+    },
+    "22200231": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200232": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 22,
+      "t": 5
+    },
+    "22200237": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 23
+    },
+    "22200254": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200269": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200271": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "22200277": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200293": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "22200301": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200314": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200327": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200333": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 23
+    },
+    "22200352": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio2": 17,
+      "s": 22,
+      "t": 5
+    },
+    "22200353": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 4,
+      "t": 23
+    },
+    "22200357": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "22200370": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "22200371": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200374": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "22200393": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 5
+    },
+    "22200396": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "22200404": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "22200412": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200414": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "22200441": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "s": 22,
+      "t": 5
+    },
+    "22200448": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 7,
+      "s": 22,
+      "t": 5
+    },
+    "22200454": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 26,
+      "s": 22,
+      "t": 14
+    },
+    "22200473": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200481": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200486": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200490": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "22200500": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 22,
+      "t": 14
+    },
+    "22200502": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 22,
+      "t": 14
+    },
+    "22200509": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200510": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200512": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "22200527": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200539": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 22,
+      "t": 14
+    },
+    "22200542": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "22200543": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200549": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "22200551": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "22200554": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200558": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200559": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200563": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200565": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200566": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "22200567": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "22200569": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "22200572": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "22200576": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 23
+    },
+    "22200577": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 22,
+      "t": 5
+    },
+    "22200591": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 4,
+      "t": 14
+    },
+    "22200596": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200600": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200601": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200606": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "22200610": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200612": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 22,
+      "t": 5
+    },
+    "22200636": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200637": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "22200638": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200653": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200656": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200660": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200673": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200682": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "22200686": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200687": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "s": 4,
+      "t": 5
+    },
+    "22200689": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 5
+    },
+    "22200702": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200707": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200710": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 5
+    },
+    "22200711": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "s": 22,
+      "t": 14
+    },
+    "22200716": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200719": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200732": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 22,
+      "t": 23
+    },
+    "22200754": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200755": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200756": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200761": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200766": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "s": 13,
+      "t": 14
+    },
+    "22200771": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200777": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "22200786": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "s": 4,
+      "t": 23
+    },
+    "22200788": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 22,
+      "t": 5
+    },
+    "22200790": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 23
+    },
+    "22200791": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200796": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 22,
+      "t": 23
+    },
+    "22200812": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200819": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "s": 22,
+      "t": 14
+    },
+    "22200824": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "s": 22,
+      "t": 23
+    },
+    "22200827": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200830": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 5
+    },
+    "22200832": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "22200835": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "22200836": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200850": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200858": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "22200886": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 14
+    },
+    "22200890": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200892": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "s": 4,
+      "t": 23
+    },
+    "22200897": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 5
+    },
+    "22200900": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "s": 13,
+      "t": 14
+    },
+    "22200902": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "s": 13,
+      "t": 5
+    },
+    "22200911": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 5
+    },
+    "22200916": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "s": 13,
+      "t": 23
+    },
+    "23200001": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200002": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 23
+    },
+    "23200005": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 5
+    },
+    "23200006": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio3": 27,
+      "s": 22,
+      "t": 23
+    },
+    "23200007": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 4,
+      "t": 5
+    },
+    "23200014": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200021": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200022": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200027": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200029": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200030": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200031": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200032": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "23200039": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200046": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200049": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200050": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200053": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 5
+    },
+    "23200055": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 18,
+      "s": 4,
+      "t": 5
+    },
+    "23200057": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200058": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "23200065": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "23200070": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "23200074": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 23
+    },
+    "23200078": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 5
+    },
+    "23200086": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200087": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 23
+    },
+    "23200088": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200089": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 14
+    },
+    "23200108": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "23200109": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 4,
+      "t": 23
+    },
+    "23200112": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200113": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200119": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 14
+    },
+    "23200120": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 23
+    },
+    "23200124": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200125": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200141": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200142": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200153": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 5
+    },
+    "23200155": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "23200161": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "23200162": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200167": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 5
+    },
+    "23200169": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200184": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 14
+    },
+    "23200190": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "23200192": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "23200193": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "23200200": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200202": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 5
+    },
+    "23200206": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200207": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200214": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "23200223": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200232": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 18,
+      "s": 4,
+      "t": 5
+    },
+    "23200238": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 5
+    },
+    "23200240": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200241": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "23200244": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200245": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200253": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200258": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200263": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "23200268": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "23200276": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 23
+    },
+    "23200283": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 4,
+      "t": 14
+    },
+    "23200284": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "23200290": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200295": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200302": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200306": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200308": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200309": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200310": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 5
+    },
+    "23200314": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200316": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200319": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 5
+    },
+    "23200325": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200328": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "23200337": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200344": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200348": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200349": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200351": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio3": 18,
+      "s": 13,
+      "t": 14
+    },
+    "23200352": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 4,
+      "t": 14
+    },
+    "23200366": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 14
+    },
+    "23200368": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "23200370": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "23200380": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio3": 27,
+      "s": 4,
+      "t": 5
+    },
+    "23201468": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 27,
+      "s": 4,
+      "t": 14
+    },
+    "24200006": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200007": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200009": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 5
+    },
+    "24200010": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200023": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200026": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200032": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200035": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200038": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200041": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200043": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200045": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 14
+    },
+    "24200046": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200048": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200050": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200051": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200054": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200059": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "24200062": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 23
+    },
+    "24200074": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200075": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200078": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200081": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200083": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio2": 26,
+      "s": 4,
+      "t": 23
+    },
+    "24200087": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 19,
+      "pio2": 8,
+      "s": 22,
+      "t": 23
+    },
+    "24200091": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 5
+    },
+    "24200094": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200095": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200099": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 5
+    },
+    "24200103": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio2": 26,
+      "s": 13,
+      "t": 5
+    },
+    "24200104": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 23
+    },
+    "24200106": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200107": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio2": 26,
+      "s": 13,
+      "t": 14
+    },
+    "24200112": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200123": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200129": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200130": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 23
+    },
+    "24200131": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200134": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200136": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200138": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200142": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200151": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200153": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 4,
+      "t": 14
+    },
+    "24200157": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 14
+    },
+    "24200158": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200162": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 4,
+      "t": 5
+    },
+    "24200164": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 23
+    },
+    "24200165": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200170": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200174": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 23
+    },
+    "24200176": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200177": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200182": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200193": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 19,
+      "pio2": 8,
+      "s": 22,
+      "t": 23
+    },
+    "24200197": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200198": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200201": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200203": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio3": 27,
+      "s": 13,
+      "t": 23
+    },
+    "24200204": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200208": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200210": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200211": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200213": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 27,
+      "s": 22,
+      "t": 14
+    },
+    "24200214": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200222": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200223": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200225": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 4,
+      "t": 23
+    },
+    "24200226": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200227": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200228": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 23
+    },
+    "24200231": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 22,
+      "t": 23
+    },
+    "24200233": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200237": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 22,
+      "t": 14
+    },
+    "24200238": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 23
+    },
+    "24200239": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200241": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 23
+    },
+    "24200242": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "24200244": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 23
+    },
+    "24200247": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200248": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200250": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 22,
+      "t": 5
+    },
+    "24200254": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200256": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 23
+    },
+    "24200257": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 23
+    },
+    "24200261": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200262": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200263": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200267": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200269": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200272": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200277": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 10,
+      "pio2": 8,
+      "s": 22,
+      "t": 23
+    },
+    "24200278": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200280": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 26,
+      "s": 22,
+      "t": 23
+    },
+    "24200284": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 5
+    },
+    "24200285": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200286": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200287": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 26,
+      "s": 22,
+      "t": 23
+    },
+    "24200288": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 10,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200291": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 23
+    },
+    "24200297": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "24200304": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio3": 9,
+      "s": 4,
+      "t": 14
+    },
+    "24200310": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200312": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio2": 17,
+      "s": 22,
+      "t": 14
+    },
+    "24200324": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200325": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 5
+    },
+    "24200334": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 14
+    },
+    "24200335": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200338": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 5
+    },
+    "24200341": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 26,
+      "s": 13,
+      "t": 14
+    },
+    "24200342": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 13,
+      "t": 14
+    },
+    "24200345": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200346": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 14
+    },
+    "24200348": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio2": 26,
+      "s": 22,
+      "t": 14
+    },
+    "24200349": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 23
+    },
+    "24200352": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200353": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 17,
+      "s": 13,
+      "t": 14
+    },
+    "24200360": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 22,
+      "t": 14
+    },
+    "24200362": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 26,
+      "s": 13,
+      "t": 23
+    },
+    "24200366": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 23
+    },
+    "24200368": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 23
+    },
+    "24200370": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 13,
+      "t": 14
+    },
+    "24200372": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio2": 26,
+      "s": 4,
+      "t": 5
+    },
+    "25200002": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200003": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200010": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200012": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200015": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200018": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200023": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 23
+    },
+    "25200027": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200028": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 22,
+      "t": 5
+    },
+    "25200029": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200031": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200032": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200033": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200034": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 23
+    },
+    "25200037": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200038": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200041": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 22,
+      "t": 5
+    },
+    "25200044": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200055": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200059": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 23
+    },
+    "25200060": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200061": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 5
+    },
+    "25200064": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200065": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200067": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 22,
+      "t": 14
+    },
+    "25200070": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200075": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 14
+    },
+    "25200077": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200078": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200079": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200084": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200086": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 14
+    },
+    "25200089": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200091": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200093": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200094": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 25,
+      "s": 4,
+      "t": 14
+    },
+    "25200098": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200101": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200102": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200103": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200104": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200106": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200107": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200108": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200111": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200112": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200114": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 13,
+      "t": 5
+    },
+    "25200115": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200117": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200121": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200124": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 13,
+      "t": 14
+    },
+    "25200127": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200133": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 14
+    },
+    "25200138": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 23
+    },
+    "25200141": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 23
+    },
+    "25200147": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200151": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 5
+    },
+    "25200153": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200165": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 5
+    },
+    "25200166": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200167": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200174": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200177": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200178": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200184": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 14
+    },
+    "25200185": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 23
+    },
+    "25200186": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200187": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200188": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200190": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200191": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200193": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200195": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 10,
+      "pio1": 16,
+      "s": 13,
+      "t": 23
+    },
+    "25200204": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 22,
+      "t": 14
+    },
+    "25200209": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200210": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200211": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200215": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio1": 16,
+      "s": 13,
+      "t": 5
+    },
+    "25200216": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200219": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200220": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 4,
+      "t": 5
+    },
+    "25200222": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200223": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200224": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200228": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200231": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200234": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200235": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200237": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200244": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 5
+    },
+    "25200247": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 20,
+      "p": 10,
+      "pio3": 9,
+      "s": 13,
+      "t": 14
+    },
+    "25200253": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 4,
+      "t": 5
+    },
+    "25200256": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200257": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 22,
+      "t": 5
+    },
+    "25200258": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200260": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200262": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200264": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200265": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200266": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200267": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 11,
+      "p": 10,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200268": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 25,
+      "s": 22,
+      "t": 5
+    },
+    "25200270": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200275": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200278": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200281": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200282": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200283": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200286": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 13,
+      "t": 14
+    },
+    "25200289": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200296": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200300": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200301": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200302": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200304": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 5
+    },
+    "25200305": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200306": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200307": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200309": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 23
+    },
+    "25200310": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 23
+    },
+    "25200315": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200318": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200319": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200322": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200323": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200325": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 5
+    },
+    "25200326": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200327": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 22,
+      "t": 23
+    },
+    "25200328": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 25,
+      "s": 13,
+      "t": 14
+    },
+    "25200329": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200330": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200331": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200332": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200333": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200334": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200335": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 11,
+      "p": 1,
+      "pio1": 25,
+      "s": 4,
+      "t": 14
+    },
+    "25200338": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 23
+    },
+    "25200343": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200346": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200353": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200359": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200362": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 20,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200364": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 25,
+      "s": 22,
+      "t": 5
+    },
+    "25200365": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200367": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200368": {
+      "a": 24,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200369": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200371": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 22,
+      "t": 14
+    },
+    "25200372": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200373": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200376": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 11,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200377": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 14
+    },
+    "25200378": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 25,
+      "s": 22,
+      "t": 5
+    },
+    "25200380": {
+      "a": 15,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200383": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200384": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio2": 8,
+      "s": 22,
+      "t": 5
+    },
+    "25200385": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 4,
+      "t": 14
+    },
+    "25200386": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200388": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 14
+    },
+    "25200390": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 14
+    },
+    "25200391": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200392": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio2": 8,
+      "s": 4,
+      "t": 5
+    },
+    "25200393": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200394": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200395": {
+      "a": 15,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200397": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200398": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200400": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 20,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200402": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200406": {
+      "a": 24,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200408": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 25,
+      "s": 22,
+      "t": 5
+    },
+    "25200409": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 1,
+      "pio1": 25,
+      "s": 22,
+      "t": 5
+    },
+    "25200410": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200411": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 22,
+      "t": 5
+    },
+    "25200412": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200414": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 23
+    },
+    "25200415": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 14
+    },
+    "25200421": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 25,
+      "s": 22,
+      "t": 5
+    },
+    "25200423": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 20,
+      "p": 19,
+      "pio1": 7,
+      "s": 13,
+      "t": 14
+    },
+    "25200424": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200425": {
+      "a": 24,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 13,
+      "t": 5
+    },
+    "25200426": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    },
+    "25200427": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200430": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200431": {
+      "a": 15,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 22,
+      "t": 23
+    },
+    "25200433": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 10,
+      "pio1": 7,
+      "s": 13,
+      "t": 5
+    },
+    "25200434": {
+      "a": 6,
+      "evp": 21,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 25,
+      "s": 13,
+      "t": 14
+    },
+    "25200435": {
+      "a": 6,
+      "evp": 3,
+      "ivp": 2,
+      "p": 1,
+      "pio1": 7,
+      "s": 4,
+      "t": 5
+    },
+    "25200436": {
+      "a": 6,
+      "evp": 12,
+      "ivp": 2,
+      "p": 19,
+      "pio1": 16,
+      "s": 22,
+      "t": 5
+    }
+  },
+  "votingDate": "2025-08-28T08:00:00",
+  "votingEnd": "2025-08-28T17:00:00"
+}

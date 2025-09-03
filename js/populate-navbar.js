@@ -6,7 +6,7 @@ $('#navbar-ui').append(`
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto" style="width: 69%">
         <li class="nav-item d-none d-xl-block no-arrow mr-auto">
-            <h1 class="navbar-text m-0">CBA Officers Election</h1>
+            <h1 class="navbar-text m-0">UV SSC Officers Election</h1>
         </li>
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"

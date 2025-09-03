@@ -1,0 +1,398 @@
+{
+    "20200361": {
+        "name": "Rendon, Trisha Chad",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "22200290": {
+        "name": "Alvarado, Justine Ross",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200031": {
+        "name": "Sere\u00f1o, Joven Skey",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200039": {
+        "name": "Quibedo, John Fernando",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200052": {
+        "name": "Ruiz, Shien",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200053": {
+        "name": "Gedorio, Aleah Nicole",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200063": {
+        "name": "Arado, Lean Jade",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200070": {
+        "name": "Adjail, Jonrub Faith",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200084": {
+        "name": "Dela Fuente, Scott Vincent",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200092": {
+        "name": "Gesalan, Joss Reidar",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200097": {
+        "name": "Mosquida, Ejay Martin",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200101": {
+        "name": "Verano, Elaiza",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200102": {
+        "name": "Mangubat, Kharle Marie",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200105": {
+        "name": "Genabe, Jorehn Isaiah",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200108": {
+        "name": "Cuento, Kent Joshua",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200109": {
+        "name": "Labiste, Jean Gabrielle",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200121": {
+        "name": "Empleo, Andrei Myles",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200122": {
+        "name": "Medrano, Sarah Jane",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200135": {
+        "name": "Singson, Mhayume",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200145": {
+        "name": "Estella, Ramses Russel",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200146": {
+        "name": "Ani\u00f1on, Josef Dartagnan",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200147": {
+        "name": "Benlot, Denise Mercelle",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200150": {
+        "name": "Dela Torre, Joseph Ian",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200155": {
+        "name": "Cortes, Shayne Nicole",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200163": {
+        "name": "Reyes, Dion Christian",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200179": {
+        "name": "Rodriguez, Ivan Neil",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200186": {
+        "name": "Amaba, Christian Dominic",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200191": {
+        "name": "Jumao-As, Sofia Claire",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200194": {
+        "name": "Ortiz, Hazel",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200195": {
+        "name": "Ortiz, Hannah Marie",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200220": {
+        "name": "Goffinet, Mary Grace",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200224": {
+        "name": "Maquipoten, Apple Mae",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200230": {
+        "name": "Martinez, Seth Jerald",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200253": {
+        "name": "Lagahid, Kian Angelo",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200283": {
+        "name": "Gamboa, Steven James",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200292": {
+        "name": "Millena, Kurt",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200313": {
+        "name": "Friolo, Jeian Jake",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200315": {
+        "name": "Estelles, Stephanie",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200317": {
+        "name": "Cutaran, Suzzain",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "24200320": {
+        "name": "La\u00f1ojan, Jessmar",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "25200020": {
+        "name": "Perez, Khen Arnold",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200063": {
+        "name": "Dimpas, Trisha Faith",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200068": {
+        "name": "Carao, John Michael",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200074": {
+        "name": "Galapin, Khasen Matthew",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200100": {
+        "name": "Coronel, Grejee",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200110": {
+        "name": "Valiao, Jerrylou",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200129": {
+        "name": "Termulo, Jonalyn",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "25200130": {
+        "name": "Escarro, Dranreb",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200131": {
+        "name": "Valera, Travis Alirey",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200137": {
+        "name": "Lanticse, Lovli Zhairene",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200139": {
+        "name": "Sestoso, Dunstan",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200163": {
+        "name": "Ponce, Phoel Cyrus",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200164": {
+        "name": "Israel, Noah",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200173": {
+        "name": "Lopez, Mark Angelo",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200175": {
+        "name": "Cortes, Sofia Katelyn",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200213": {
+        "name": "Villacora, Leslie Cary",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200225": {
+        "name": "Saldo, Princess Lourvic",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200226": {
+        "name": "Bai\u00f1o, Trisha",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200229": {
+        "name": "Giganto, John Ahrone",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200232": {
+        "name": "Dechosa, Calex Andrea",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200238": {
+        "name": "Bejec, Luis Herbert",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200251": {
+        "name": "Enalas, Angelito",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200252": {
+        "name": "Paz, Irene Mae",
+        "course": "STEM12",
+        "voted": false,
+        "admin": false
+    },
+    "25200297": {
+        "name": "Bustamante, John Kent",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200316": {
+        "name": "Lanusa, Urica Camille",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    },
+    "25200337": {
+        "name": "Cariego, Zeus Evezen",
+        "course": "STEM11",
+        "voted": false,
+        "admin": false
+    }
+}
