@@ -39,12 +39,6 @@ $('#accordionSidebar').append(`
             <span>Admins</span></a>
     </li>
 
-    <li class="nav-item for-admin" id="votes-menu">
-        <a class="nav-link" href="votes.html">
-            <i class="fas fa-fw fa-table"></i>
-            <span>Votes</span></a>
-    </li>
-
     <!-- Divider -->
     <hr class="sidebar-divider for-admin">
 
